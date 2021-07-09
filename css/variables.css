@@ -1,0 +1,50 @@
+:root {
+    --palette-color-1: var(--paletteColor1, #642d39);
+    --palette-color-2: var(--paletteColor2, #923146);
+    --palette-color-3: var(--paletteColor3, #1e1e15);
+    --palette-color-4: var(--paletteColor4, #2e1e1e);
+    --palette-color-5: var(--paletteColor5, #c9c9c9);
+    --palette-color-6: var(--paletteColor6, #ececec);
+    --palette-color-7: var(--paletteColor7, #ffffff);
+    --palette-color-8: var(--paletteColor8, #f5f4ed);
+    --palette-color-9: #ecd297;
+    --palette-color-10: #adcfd8;
+    --palette-color-11: #849965;
+    --palette-color-12: #604d43;
+    --palette-color-13: #cd403c;
+}
+
+.has-palette-color-9-color {
+    color: var(--palette-color-9, #ecd297);
+}
+.has-palette-color-9-background-color {
+    background-color: var(--palette-color-9, #ecd297);
+}
+
+.has-palette-color-10-color {
+    color: var(--palette-color-10, #adcfd8);
+}
+.has-palette-color-10-background-color {
+    background-color: var(--palette-color-10, #adcfd8);
+}
+
+.has-palette-color-11-color {
+    color: var(--palette-color-11, #849965);
+}
+.has-palette-color-11-background-color {
+    background-color: var(--palette-color-11, #849965);
+}
+
+.has-palette-color-12-color {
+    color: var(--palette-color-12, #604d43);
+}
+.has-palette-color-12-background-color {
+    background-color: var(--palette-color-12, #604d43);
+}
+
+.has-palette-color-13-color {
+    color: var(--palette-color-13, #cd403c);
+}
+.has-palette-color-13-background-color {
+    background-color: var(--palette-color-13, #cd403c);
+}

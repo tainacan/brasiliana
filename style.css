@@ -1,7 +1,24 @@
 /**
  * Theme Name: Brasiliana
  * Description: Brasiliana Museus - a child theme of Blocksy
- * Author: Mateus Wetah
+ * Author: wetah
  * Template: blocksy
  * Text Domain: brasiliana
  */
+
+ /* Color and size variables used across site */
+@import "./css/variables.css";
+
+/* Tainacan-related Styles */
+@import "./css/tainacan.css";
+
+/* Custom Block Styles */
+@import "./css/block-styles.css";
+
+/* Hides swiper lazy loading */
+.swiper-lazy-preloader {
+    animation: none;
+    transform: none;
+    display: none;
+    visibility: hidden;
+}

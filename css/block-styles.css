@@ -1,0 +1,11 @@
+/* Page title on editor side */
+.editor-post-title__block .editor-post-title__input {
+    font-family: RobotoCondensed, Sans-Serif !important;
+    font-size: 64px;
+}
+
+/* Special style rounded blocks*/
+.is-style-brasiliana-rounded,
+.wp-block-cover.is-style-brasiliana-rounded::before {
+    border-radius: 38px;
+}
