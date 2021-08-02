@@ -144,6 +144,7 @@ svg.acervo-logo-completo {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+    display: block;
 }
 svg.acervo-logo-expansao path {
     animation-play-state: paused;
