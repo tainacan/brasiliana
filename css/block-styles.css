@@ -7,5 +7,12 @@
 /* Special style rounded blocks*/
 .is-style-brasiliana-rounded,
 .wp-block-cover.is-style-brasiliana-rounded::before {
-    border-radius: 38px;
+    border-radius: 16px;
+}
+
+/* Home banner logo */
+.wp-block-getwid-section svg {
+    margin-bottom: -4rem !important;
+    display: block;
+    visibility: hidden;
 }

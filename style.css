@@ -15,6 +15,9 @@
 /* Custom Block Styles */
 @import "./css/block-styles.css";
 
+/* Logo animation */
+@import "./css/logo.css";
+
 /* Hides swiper lazy loading */
 .swiper-lazy-preloader {
     animation: none;

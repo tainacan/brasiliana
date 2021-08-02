@@ -27,13 +27,15 @@
 
 .wp-block-getwid-post-carousel__post-title,
 .slick-list .wp-block-getwid-template-post-title {
-    font-family: Bebas Neue;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
     font-size: 1.75rem;
     padding-bottom: 0;
 }
 
 .item-list-item.swiper-slide a>span{
-    font-family: Bebas Neue;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
     font-size: 1.35rem;
     margin-bottom: -1rem;
 }
