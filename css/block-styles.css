@@ -6,8 +6,22 @@
 
 /* Special style rounded blocks*/
 .is-style-brasiliana-rounded,
-.wp-block-cover.is-style-brasiliana-rounded::before {
+.wp-block-cover.is-style-brasiliana-rounded::before,
+.wp-block-cover.is-style-brasiliana-rounded img.wp-block-cover__image-background,
+.wp-block-cover.is-style-brasiliana-rounded video.wp-block-cover__video-background {
     border-radius: 16px;
+}
+
+/* Special style cirle blocks*/
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .item-list-item img,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .collection-list-item img {
+    border-radius: 100%;
+}
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .item-list-item,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .collection-list-item {
+    text-align: center;
 }
 
 /* Home banner logo */
@@ -15,4 +29,19 @@
     margin-bottom: -4rem !important;
     display: block;
     visibility: hidden;
+}
+
+/* Brasiliana museu cards (also home page) */
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container{
+    width: 100%;
+}
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns {
+    margin: 0;
+    width: 100%;
+}
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column:not(:first-child) {
+    margin-left: 0.75em;
+}
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column p {
+    margin-bottom: 0;
 }
