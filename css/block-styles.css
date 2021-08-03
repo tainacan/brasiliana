@@ -55,3 +55,9 @@
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column p {
     margin-bottom: 0;
 }
+
+/* Facets block inside a cover block should inherit text color */
+.wp-block-cover .wp-block-tainacan-facets-list ul.facets-list.facets-layout-list li.facet-list-item a,
+.wp-block-cover .wp-block-tainacan-facets-list ul.facets-list-edit.facets-layout-list li.facet-list-item a {
+    color: inherit !important;
+}
