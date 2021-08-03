@@ -25,10 +25,9 @@
 }
 
 /* Home banner logo */
-.wp-block-getwid-section svg {
+.wp-block-getwid-section .wp-block-group__inner-container svg {
     margin-bottom: -4rem !important;
     display: block;
-    visibility: hidden;
 }
 
 /* Brasiliana museu cards (also home page) */
