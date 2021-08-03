@@ -32,7 +32,7 @@ if ( function_exists('register_block_style') ) {
         );
 
         register_block_style(
-            'tainacan/terms-carousel-list',
+            'tainacan/carousel-terms-list',
             array(
                 'name'  => 'brasiliana-rounded',
                 'label' =>  __('Círculo Brasiliana', 'brasiliana'),
