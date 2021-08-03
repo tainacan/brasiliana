@@ -8,19 +8,30 @@
 .is-style-brasiliana-rounded,
 .wp-block-cover.is-style-brasiliana-rounded::before,
 .wp-block-cover.is-style-brasiliana-rounded img.wp-block-cover__image-background,
-.wp-block-cover.is-style-brasiliana-rounded video.wp-block-cover__video-background {
+.wp-block-cover.is-style-brasiliana-rounded video.wp-block-cover__video-background,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item,
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item img {
     border-radius: 16px;
+}
+
+/* Rounded Terms carousel has label inside the picture */
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item a>span,
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item a>span {
+    position: absolute;
+    bottom: 0;
+    padding: 16px 20px;
+    color: var(--tainacan-block-gray0, #f8f9fb);
 }
 
 /* Special style cirle blocks*/
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
-.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .item-list-item img,
-.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .collection-list-item img {
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item img {
     border-radius: 100%;
 }
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item,
-.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .item-list-item,
-.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .collection-list-item {
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item {
     text-align: center;
 }
 
@@ -31,7 +42,7 @@
 }
 
 /* Brasiliana museu cards (also home page) */
-.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container{
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container {
     width: 100%;
 }
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns {

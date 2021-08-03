@@ -32,6 +32,15 @@ if ( function_exists('register_block_style') ) {
         );
 
         register_block_style(
+            'tainacan/terms-carousel-list',
+            array(
+                'name'  => 'brasiliana-rounded',
+                'label' =>  __('Círculo Brasiliana', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
+
+        register_block_style(
             'core/image',
             array(
                 'name'  => 'brasiliana-rounded',
@@ -50,23 +59,13 @@ if ( function_exists('register_block_style') ) {
         );
         
         register_block_style(
-            'tainacan/carousel-collecitons-list',
+            'tainacan/carousel-collections-list',
             array(
                 'name'  => 'brasiliana-circle',
                 'label' =>  __('Círculo Brasiliana', 'brasiliana'),
                 'isDefault' => false,
             )
         );
-        
-        register_block_style(
-            'tainacan/items-collecitons-list',
-            array(
-                'name'  => 'brasiliana-circle',
-                'label' =>  __('Círculo Brasiliana', 'brasiliana'),
-                'isDefault' => false,
-            )
-        );
-
 
     }
     add_action('init', 'brasiliana_block_styles');
