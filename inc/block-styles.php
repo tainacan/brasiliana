@@ -35,7 +35,7 @@ if ( function_exists('register_block_style') ) {
             'tainacan/carousel-terms-list',
             array(
                 'name'  => 'brasiliana-rounded',
-                'label' =>  __('Círculo Brasiliana', 'brasiliana'),
+                'label' =>  __('Arredondado Brasiliana', 'brasiliana'),
                 'isDefault' => false,
             )
         );
