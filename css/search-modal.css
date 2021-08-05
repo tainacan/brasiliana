@@ -1,3 +1,16 @@
+#header {
+    z-index: 9999999;
+}
+.ct-panel {
+    z-index: 9999999;
+}
+#search-modal .ct-panel-actions {
+    margin: 0 auto;
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    padding-left: 0;
+    padding-right: 0;
+}
 #search-modal .search-form {
     margin-top: -5rem;
 }

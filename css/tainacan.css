@@ -61,7 +61,6 @@
 .theme-items-list .tags {
     border-radius: 8px;
 }
-
 .tainacan-modal .filter-item-forms .collapse-trigger .collapse-label,
 .theme-items-list .filter-item-forms .collapse-trigger .collapse-label {
     font-weight: bold;
@@ -88,8 +87,21 @@
 .theme-items-list .tainacan-form .label {
     display: inline-flex;
 }
+.page.has-filters-panel-style-boxed #filters-modal .modal-content #filters-items-list {
+    background-color: var(--tainacan-background-color, #ffffff);
+}
 .theme-items-list #filters-modal .modal-content #filters-items-list {
     margin: 0px;
+}
+.tainacan-modal .tainacan-modal-content,
+.theme-items-list .tainacan-modal-content {
+    padding: 40px var(--tainacan-one-column, 4.166666667%);
+}
+
+@media screen and (max-width: 768px) {
+    .filters-menu:not(.filters-menu-modal) {
+        z-index: 99999000;
+    }
 }
 
 @media screen and (min-width: 960px) {
