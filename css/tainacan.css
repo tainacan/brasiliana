@@ -41,4 +41,22 @@
 
 .theme-items-list:not(.is-fullscreen) {
     top: 3rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    max-width: var(--container-max-width);
+    min-width: initial;
+}
+.theme-items-list .search-control {
+    padding: 20px 0px 6px 3px !important;
+}
+@media screen and (min-width: 960px) {
+    .theme-items-list #filters-modal .modal-content #filters-items-list {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .theme-items-list #filters-modal .modal-content {
+        padding: 16px 6px !important;
+    }
 }
