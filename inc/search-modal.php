@@ -19,7 +19,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
 
     if (!$brasiliana_collection_id)
         return;
-    //$brasiliana_collection_id = '130957';
+    $brasiliana_collection_id = '130957';
     $collection = new \Tainacan\Entities\Collection($brasiliana_collection_id);
     
     $metadatum_repository = \tainacan_metadata();
@@ -40,6 +40,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
     echo $form;
     ?>
         <div class="brasiliana-search-modal-facets-list">
+            <div class="brasiliana-search-modal-facets-list__header">
             <?php
                 foreach($metadata as $metadatum) {
                     $args = [
@@ -50,34 +51,35 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
                     $facets = $metadatum_repository->fetch_all_metadatum_values( $metadatum->get_ID(), $args );
                     
                     if ( $facets && isset($facets['values']) && count($facets['values']) ) : ?>
-                        <div class="brasiliana-search-modal-facets-list__header">
-                            <details>
-                                <summary class="metadatum-name">
-                                    <?php echo $metadatum->get_name() ?>
-                                    <svg width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg>
-                                </summary>
-                                <div class="ct-container brasiliana-search-modal-facets-list__content">
-                                    <?php 
-                                        foreach($facets['values'] as $facet) :
+                        
+                        <details>
+                            <summary class="metadatum-name">
+                                <?php echo $metadatum->get_name() ?>
+                                
+                            </summary>
+                            <div class="ct-container brasiliana-search-modal-facets-list__content">
+                                <?php 
+                                    foreach($facets['values'] as $facet) :
 
-                                            $term_label = $facet['label'];
-                                            $term_total_items = $facet['total_items'];
-                                            $term_link = get_term_link((int) $facet['value']);
+                                        $term_label = $facet['label'];
+                                        $term_total_items = $facet['total_items'];
+                                        $term_link = get_term_link((int) $facet['value']);
 
-                                            if ($term_link instanceof \WP_Error)
-                                                continue;
+                                        if ($term_link instanceof \WP_Error)
+                                            continue;
 
-                                            ?>
-                                            <a href="<?php echo $term_link; ?>">
-                                                <span class="facet-label"><?php echo $term_label; ?></span><span class="facet-total-items"><?php echo $term_total_items; ?> items</span>
-                                            </a>
-                                        <?php endforeach; 
-                                    ?>
-                                </div>
+                                        ?>
+                                        <a href="<?php echo $term_link; ?>">
+                                            <span class="facet-label"><?php echo $term_label; ?></span><span class="facet-total-items"><?php echo $term_total_items; ?> items</span>
+                                        </a>
+                                    <?php endforeach; 
+                                ?>
+                            </div>
                             </details>
-                        </div>
-                        <?php endif; ?>
+                        
+                    <?php endif; ?>
                 <?php } ?>
+            </div>
         </div>
 
     <?php
