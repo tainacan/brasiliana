@@ -19,7 +19,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
 
     if (!$brasiliana_collection_id)
         return;
-    //$brasiliana_collection_id = '130957';
+    $brasiliana_collection_id = '130957';
     $collection = new \Tainacan\Entities\Collection($brasiliana_collection_id);
     
     $metadatum_repository = \tainacan_metadata();
@@ -41,7 +41,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
     ?>
         <div class="brasiliana-search-modal-facets-list">
             <div class="brasiliana-search-modal-facets-list__header">
-            <?php
+                <?php
                 foreach($metadata as $metadatum) {
                     $args = [
                         'collection_id' => $brasiliana_collection_id,
@@ -55,7 +55,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
                         <details>
                             <summary class="metadatum-name">
                                 <?php echo $metadatum->get_name() ?>
-                                
+                                <svg width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg>
                             </summary>
                             <div class="ct-container brasiliana-search-modal-facets-list__content">
                                 <?php 
@@ -75,8 +75,8 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
                                     <?php endforeach; 
                                 ?>
                             </div>
-                            </details>
-                        
+                        </details>
+                    
                     <?php endif; ?>
                 <?php } ?>
             </div>
