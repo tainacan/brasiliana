@@ -39,18 +39,58 @@
     }
 }
 
+.tainacan-modal,
+.theme-items-list {
+    --borderRadius: 8px;
+    --tainacan-item-heading-background-color: var(--paletteColor8, #f5f4ed);
+    --tainacan-item-heading-hover-background-color: var(--palette-color-9, #ecd297);
+}
 .theme-items-list:not(.is-fullscreen) {
     top: 3rem !important;
     margin-left: auto;
     margin-right: auto;
-    width: var(--container-width);
-    max-width: var(--container-max-width);
-    max-width: var(--container-max-width);
-    min-width: initial;
+    width: var(--container-width) !important;
+    max-width: var(--container-max-width) !important;
+    min-width: initial !important;
 }
 .theme-items-list .search-control {
     padding: 20px 0px 6px 3px !important;
 }
+.tainacan-modal .tags,
+.theme-items-list .tags {
+    border-radius: 8px;
+}
+
+.tainacan-modal .filter-item-forms .collapse-trigger .collapse-label,
+.theme-items-list .filter-item-forms .collapse-trigger .collapse-label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--tainacan-secondary
+    #642d39);
+}
+.tainacan-modal .filter-item-forms .collapse-trigger .icon,
+.theme-items-list .filter-item-forms .collapse-trigger .icon {
+    margin-right: 0;
+    margin-left: 4px;
+    order: 2;
+}
+.tainacan-modal .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowright::before,
+.theme-items-list .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowright::before {
+    content: "plus";
+}
+.tainacan-modal .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowdown::before,
+.theme-items-list .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowdown::before {
+    content: "minus";
+}
+
+.tainacan-modal .tainacan-form .label,
+.theme-items-list .tainacan-form .label {
+    display: inline-flex;
+}
+.theme-items-list #filters-modal .modal-content #filters-items-list {
+    margin: 0px;
+}
+
 @media screen and (min-width: 960px) {
     .theme-items-list #filters-modal .modal-content #filters-items-list {
         padding-left: 0;
