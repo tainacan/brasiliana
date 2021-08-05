@@ -1,0 +1,41 @@
+/* First Widget area is smaller */
+footer div[data-column="widget-area-1"] {
+    max-width: 90%;
+}
+
+/* Bellow the logo, a smaller text size */
+footer .ct-socials-widget+.widget_text,
+footer .widget_text+.widget_text {
+    font-size: 14px;
+    max-width: 80%;
+}
+footer .widget_text+.widget_text {
+    color: var(--paletteColor8, #f5f4ed);
+}
+
+/* Bellow search bar, we should have two columns for the menu */
+footer .widget_search+.widget_nav_menu .widget-menu {
+    -moz-column-count: 2;
+    -moz-column-gap: 1.5em;
+    -moz-column-rule: none;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1.5em;
+    -webkit-column-rule: none;
+    column-gap: 1.5em;
+    column-rule: none;
+    column-count: 2;
+}
+
+@media screen and (max-width: 960px) {
+    footer div[data-column="widget-area-1"],
+    footer .ct-socials-widget+.widget_text,
+    footer .widget_text+.widget_text {
+        max-width: 100%;
+    }
+    
+    footer .widget_search+.widget_nav_menu .widget-menu {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}

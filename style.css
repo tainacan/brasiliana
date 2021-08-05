@@ -22,6 +22,9 @@
 /* Search modal tweaks */
 @import "./css/search-modal.css";
 
+/* Updates to the footer widgets */
+@import "./css/footer.css";
+
 /* Hides swiper lazy loading */
 .swiper-lazy-preloader {
     animation: none;
