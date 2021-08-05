@@ -34,6 +34,9 @@ function brasiliana_theme_supported_features() {
 add_action( 'after_setup_theme', 'brasiliana_theme_supported_features' );
 
 
+// Updates to the search modal
+require get_stylesheet_directory() . '/inc/search-modal.php';
+
 // Registers Block styles
 require get_stylesheet_directory() . '/inc/block-styles.php';
 
