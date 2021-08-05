@@ -19,7 +19,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
 
     if (!$brasiliana_collection_id)
         return;
-    $brasiliana_collection_id = '130957';
+    //$brasiliana_collection_id = '130957';
     $collection = new \Tainacan\Entities\Collection($brasiliana_collection_id);
     
     $metadatum_repository = \tainacan_metadata();
