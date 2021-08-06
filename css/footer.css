@@ -29,8 +29,6 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     column-gap: 1.5em;
     column-rule: none;
     column-count: 2;
-}
-footer .widget_search+.widget_nav_menu .widget-menu ul {
     font-size: 22px;
 }
 
