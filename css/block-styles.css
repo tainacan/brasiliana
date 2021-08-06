@@ -61,3 +61,26 @@
 .wp-block-cover .wp-block-tainacan-facets-list ul.facets-list-edit.facets-layout-list li.facet-list-item a {
     color: inherit !important;
 }
+
+/* WordPress core Search Bar with Basiliana style */
+.is-stlye-brasiliana-search-bar .wp-block-search__inside-wrapper {
+    border-radius: 8px;
+    padding: 0;
+    border: none;
+}
+.is-stlye-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__input {
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    padding: 0 0 0 2.25em;
+}
+.is-stlye-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__button {
+    margin-left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: var(--paletteColor1, #642d39);
+    color: var(--palette-color-9, #ecd297);
+    padding: .125em 2.5em;
+}

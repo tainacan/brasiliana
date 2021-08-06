@@ -67,6 +67,15 @@ if ( function_exists('register_block_style') ) {
             )
         );
 
+        register_block_style(
+            'core/search',
+            array(
+                'name'  => 'brasiliana-search-bar',
+                'label' =>  __('Barra de Busca Brasiliana', 'brasiliana'),
+                'isDefault' => true,
+            )
+        );
+
     }
     add_action('init', 'brasiliana_block_styles');
 }
