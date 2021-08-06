@@ -13,6 +13,11 @@ footer .widget_text+.widget_text {
     color: var(--paletteColor8, #f5f4ed);
 }
 
+/* A bit of space to the search bar top */
+footer .widget_search {
+    margin-top: 22px;
+}
+
 /* Bellow search bar, we should have two columns for the menu */
 footer .widget_search+.widget_nav_menu .widget-menu {
     -moz-column-count: 2;
@@ -24,6 +29,9 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     column-gap: 1.5em;
     column-rule: none;
     column-count: 2;
+}
+footer .widget_search+.widget_nav_menu .widget-menu ul {
+    font-size: 22px;
 }
 
 @media screen and (max-width: 960px) {
