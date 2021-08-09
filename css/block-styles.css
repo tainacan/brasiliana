@@ -15,24 +15,36 @@
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
     border-radius: 16px;
 }
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item,
+.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item img,
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item,
+.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    object-fit: cover;
+    max-height: 295px;
+}
 
 /* Rounded Terms carousel has label inside the picture */
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item a>span,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item a>span {
     position: absolute;
     bottom: 0;
-    padding: 16px 20px;
-    color: var(--tainacan-block-gray0, #f8f9fb);
+    padding: 16px 20px !important;
+    color: var(--tainacan-block-gray0, #f8f9fb) !important;
 }
 
 /* Special style cirle blocks*/
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item img {
     border-radius: 100%;
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.8);
 }
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item {
     text-align: center;
+    font-size: 1.375rem;
 }
 
 /* Home banner logo */
