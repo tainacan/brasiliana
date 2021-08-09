@@ -63,19 +63,19 @@
 }
 
 /* WordPress core Search Bar with Basiliana style */
-.wp-block-seach.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper {
+.wp-block-search.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper {
     border-radius: 8px;
     padding: 0;
     border: none;
 }
-.wp-block-seach.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__input {
+.wp-block-search.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__input {
     background-color: white;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border: none;
     padding: 0 0 0 2.25em;
 }
-.wp-block-seach.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__button {
+.wp-block-search.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__button {
     margin-left: 0;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
