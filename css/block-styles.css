@@ -24,6 +24,12 @@
     object-fit: cover;
     max-height: 295px;
 }
+.wp-block-tainacan-carousel-terms-list .tainacan-carousel .swiper-container a > span,
+.wp-block-tainacan-carousel-terms-list .tainacan-carousel .swiper-container a:hover > span,
+.wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a > span,
+.wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a:hover > span {
+    font-size: 22px;
+}
 
 /* Rounded Terms carousel has label inside the picture */
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item a>span,
@@ -95,4 +101,14 @@
     background-color: var(--paletteColor1, #642d39);
     color: var(--palette-color-9, #ecd297);
     padding: .125em 2.5em;
+}
+
+/* Cover images carousel with figcaption layer to darken it */
+.wp-block-getwid-images-slider.has-captions .wp-block-getwid-images-slider__item figcaption {
+    display: flex;
+    align-items: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(34,34,34,0.5);
+    background-image: none;
 }
