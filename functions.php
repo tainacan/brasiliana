@@ -18,7 +18,7 @@ const BRASILIANA_VERSION = '0.0.3';
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'brasiliana-style', get_stylesheet_uri(), array('parent-style'), BRASILIANA_VERSION );
-	wp_enqueue_script( 'brasiliana-facets-search-bar-script', get_stylesheet_uri() . '/js/facets-search-bar.js' );
+	wp_enqueue_script( 'brasiliana-facets-search-bar-script', get_stylesheet_directory_uri() . '/js/facets-search-bar.js', array(), BRASILIANA_VERSION );
 });
 
 /* Enqueues block side CSS files */
