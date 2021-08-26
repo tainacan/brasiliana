@@ -6,7 +6,7 @@ const performWhenDocumentIsLoaded = callback => {
         document.addEventListener('DOMContentLoaded', callback, false);
 }
 
-performWhenDocumentIsLoaded(() => {
+function syncFacetsBlockWithSearchBar() {
     let facetsSearchBar = document.getElementsByClassName('brasiliana-facets-search-bar');
     if (facetsSearchBar && facetsSearchBar.length) {
         facetsSearchBar = facetsSearchBar[0];
@@ -27,4 +27,28 @@ performWhenDocumentIsLoaded(() => {
             }
         }
     }
+}
+
+function setClickEventsOfSearchModalFacetsList() {
+    let searchModalFacetsList = document.getElementsByClassName('brasiliana-search-modal-facets-list__header');
+    if (searchModalFacetsList && searchModalFacetsList.length) {
+        searchModalFacetsList = searchModalFacetsList[0].children;
+        for (let detail of searchModalFacetsList) {
+            if (detail.children && detail.children[0] && detail.children[0].nodeName == 'SUMMARY') {
+                detail.children[0].onclick = () => {
+                    for (let otherDetail of searchModalFacetsList) {
+                        if (detail != otherDetail && otherDetail.children && otherDetail.children[0] && otherDetail.children[0].nodeName == 'SUMMARY')
+                            otherDetail.open = false;
+                    }
+                }
+            }
+        }
+    }
+}
+
+performWhenDocumentIsLoaded(() => {
+    
+    syncFacetsBlockWithSearchBar();
+
+    setClickEventsOfSearchModalFacetsList();
 });
