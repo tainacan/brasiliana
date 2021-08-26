@@ -9,7 +9,7 @@ footer .widget_text+.widget_text {
     font-size: 14px;
     max-width: 80%;
 }
-footer .widget_text+.widget_text {
+footer .widget_text:last-of-type {
     color: var(--paletteColor8, #f5f4ed);
 }
 
