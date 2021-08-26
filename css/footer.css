@@ -16,6 +16,10 @@ footer .widget_text+.widget_text {
 /* A bit of space to the search bar top */
 footer .widget_search {
     margin-top: 22px;
+    margin-bottom: 32px;
+}
+footer .widget_search button.search-submit svg {
+    --icon-size: 20px;
 }
 
 /* Bellow search bar, we should have two columns for the menu */
