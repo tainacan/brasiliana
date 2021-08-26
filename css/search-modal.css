@@ -81,7 +81,7 @@
 #search-modal input {
     --form-font-size: 1.125rem;
     --form-field-height: 56px;
-    --form-field-border-width: 0 0 3 0;
+    --form-field-border-width: 0 0 3px 0;
     --form-field-border-initial-color: var(--palette-color-9, #ecd297);
 }
 #search-modal input+button {
