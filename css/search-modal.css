@@ -1,9 +1,3 @@
-#header {
-    z-index: 9999999;
-}
-.ct-panel {
-    z-index: 9999999;
-}
 #search-modal .ct-panel-actions {
     margin: 0 auto;
     width: var(--container-width);

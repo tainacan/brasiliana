@@ -61,7 +61,7 @@
 
 /* Brasiliana museu cards (also home page) */
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container {
-    width: 100%;
+    width: 100% !important;
 }
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns {
     margin: 0;
