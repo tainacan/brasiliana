@@ -16,6 +16,9 @@
 /* Custom Block Styles */
 @import "./css/block-styles.css";
 
+/* Custom elements tweaks */
+@import "./css/elements.css";
+
 /* Logo animation */
 @import "./css/logo.css";
 
@@ -24,11 +27,3 @@
 
 /* Updates to the footer widgets */
 @import "./css/footer.css";
-
-/* Hides swiper lazy loading */
-.swiper-lazy-preloader {
-    animation: none;
-    transform: none;
-    display: none;
-    visibility: hidden;
-}

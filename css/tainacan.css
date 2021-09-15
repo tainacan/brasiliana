@@ -2,7 +2,6 @@
 .tainacan-collection-header {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(0deg, #73424D, #73424D) !important;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    text-align: center;
     position: relative;
     margin-bottom: 3rem;
 }
@@ -15,31 +14,15 @@
 .tainacan-collection-header .ct-breadcrumbs {
     position: absolute;
     top: 6px;
+    font-size: 14px;
 }
 .tainacan-collection-header .page-title {
     color: var(--paletteColor1, #642d39);
     font-size: 48px;
+    text-transform: uppercase;
 }
 .tainacan-collection-header .page-description {
-    padding-left: 5%;
-    padding-right: 5%;
-    -moz-column-count: 2;
-    -moz-column-gap: 1.5em;
-    -moz-column-rule: none;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1.5em;
-    -webkit-column-rule: none;
-    column-gap: 1.5em;
-    column-rule: none;
-    column-count: 2;
-    text-align: left;
-}
-@media screen and (max-width: 960px) {
-    .tainacan-collection-header .page-description {
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
-    }
+    color: white;
 }
 
 .tainacan-modal,

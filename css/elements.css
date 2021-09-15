@@ -1,0 +1,16 @@
+/* Hides swiper lazy loading */
+.swiper-lazy-preloader {
+    animation: none;
+    transform: none;
+    display: none;
+    visibility: hidden;
+}
+
+/* Puts the breadcrumb on top of the page */
+#main>.ct-container-full {
+    position: relative;
+}
+.hero-section .ct-breadcrumbs {
+    position: absolute;
+    top: 6px;
+}
