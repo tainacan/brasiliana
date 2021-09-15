@@ -13,4 +13,5 @@
 .hero-section .ct-breadcrumbs {
     position: absolute;
     top: 6px;
+    z-index: 1;
 }
