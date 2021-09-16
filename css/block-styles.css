@@ -80,6 +80,16 @@
     color: inherit !important;
 }
 
+/* Title inside the blocks should not have margin */
+.wp-block-cover h1,
+.wp-block-cover h2,
+.wp-block-cover h3,
+.wp-block-cover h4,
+.wp-block-cover h5,
+.wp-block-cover h6 {
+    margin-bottom: 0;
+}
+
 /* WordPress core Search Bar with Basiliana style */
 .wp-block-search.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper {
     border-radius: 8px;
