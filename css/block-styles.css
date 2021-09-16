@@ -29,6 +29,7 @@
 .wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a > span,
 .wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a:hover > span {
     font-size: 22px;
+    color: var(--paletteColor1, #642d39);
 }
 
 /* Rounded Terms carousel has label inside the picture */
