@@ -90,8 +90,11 @@
 .wp-block-cover h3,
 .wp-block-cover h4,
 .wp-block-cover h5,
-.wp-block-cover h6 {
+.wp-block-cover h6,
+.wp-block-cover .wp-block-tainacan-facets-list,
+.wp-block-cover .wp-block-tainacan-dynamic-items-list {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 /* WordPress core Search Bar with Basiliana style */
