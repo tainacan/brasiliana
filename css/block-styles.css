@@ -13,11 +13,9 @@
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
-    border-radius: 16px;
+    border-radius: 8px;
 }
-.wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item,
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item img,
-.wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
     -webkit-filter: brightness(0.5);
     filter: brightness(0.5);
