@@ -131,6 +131,7 @@
     background-color: rgba(34,34,34,0.5);
     background-image: none;
     padding: 20px;
+    height: 100%;
 }
 
 /* The posts and images gap should have more space to the arrows */
