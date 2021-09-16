@@ -136,3 +136,21 @@
 .wp-block-getwid-images-slider.has-slides-gap-large .slick-list {
     margin: 0;
 }
+
+/* Brasiliana Facets Section */
+.wp-block-getwid-section.brasiliana-facets-section hr {
+    margin-top: -18px;
+    height: 1px;
+}
+.wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list {
+    margin: 0em auto 2em auto;
+}
+.wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list .facets-list {    
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list ul.facets-list.facets-layout-list li.facet-list-item .facet-label-and-count span:first-child,
+.wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list ul.facets-list-edit.facets-layout-list li.facet-list-item .facet-label-and-count span:first-child {
+    font-weight: bold;
+    color: var(--paletteColor1, #642d39);
+}
