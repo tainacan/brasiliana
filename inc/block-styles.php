@@ -14,6 +14,15 @@ if ( function_exists('register_block_style') ) {
     function brasiliana_block_styles() {
 
         register_block_style(
+            'core/heading',
+            array(
+                'name'  => 'brasiliana-barlow-font',
+                'label' =>  __('Fonte Alternativa', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
+
+        register_block_style(
             'core/cover',
             array(
                 'name'  => 'brasiliana-rounded',

@@ -4,6 +4,11 @@
     font-size: 64px;
 }
 
+/* Special Heading Font Family */
+.is-style-brasiliana-barlow-font {
+    font-family: 'Barlow Condensed', Sans-Serif !important;
+}
+
 /* Special style rounded blocks*/
 .is-style-brasiliana-rounded,
 .wp-block-cover.is-style-brasiliana-rounded::before,
