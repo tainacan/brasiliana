@@ -6,6 +6,24 @@
     visibility: hidden;
 }
 
+/* GetWid Slick Carousel arrows */
+.slick-next::before,
+.slick-prev::before {
+    font-family: 'TainacanIcons';
+    font-size: 30px;
+    color: var(--tainacan-block-primary, #298596);
+}
+.slick-next::before {
+    content: 'next';
+}
+.slick-prev::before {
+    content: 'previous'
+}
+.slick-arrow {
+    width: 42px;
+    height: 42px;
+}
+
 /* Puts the breadcrumb on top of the page */
 #main>.ct-container-full {
     position: relative;

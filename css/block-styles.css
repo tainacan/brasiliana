@@ -111,4 +111,11 @@
     font-weight: bold;
     background-color: rgba(34,34,34,0.5);
     background-image: none;
+    padding: 20px;
+}
+
+/* The posts and images gap should have more space to the arrows */
+.wp-block-getwid-post-carousel.has-slides-gap-large .slick-list,
+.wp-block-getwid-images-slider.has-slides-gap-large .slick-list {
+    margin: 0;
 }
