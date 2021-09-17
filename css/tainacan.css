@@ -32,12 +32,13 @@
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .ct-breadcrumbs {
     color: #040203;
+    --linkInitialColor: #040203;
     opacity: 0.75;
 }
 
 .tainacan-collection-header.tainacan-collection-header--term-page .collection-thumbnail {
     --thumbnail-size: 406px;
-    --border-radius: 8px;
+    --borderRadius: 8px;
     margin-right: 30px;
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-title {

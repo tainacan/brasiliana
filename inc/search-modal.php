@@ -79,7 +79,12 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
                                         <a 
                                                 class="facets-view-all-button"
                                                 href="<?php echo '/inventario#' . $metadatum->get_slug(); ?>">
-                                            Ver todas as facetas.
+                                            <?php printf(
+                                                    /* translators: %s: Name of a city */
+                                                    __( 'Ver todas as %s facetas.', 'brasiliana' ),
+                                                    $facets['total']
+                                                );
+                                            ?>
                                         </a>
                                     <?php endif;
                                 ?>
