@@ -170,3 +170,22 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-image figcaption {
     opacity: 0.5;
 }
+
+/* Brasiliana Museo Pattern */
+.is-brasiliana-museu-cover {
+    margin-bottom: -4rem;
+}
+.is-brasiliana-museu-logo {
+    border: 2px solid white;
+}
+.is-brasiliana-museu-group h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.is-brasiliana-museu-group h2 {
+    margin-top: 0;
+}
+.is-brasiliana-museu-group hr {
+    height: 1px;
+    background-color: #dddddd;
+}
