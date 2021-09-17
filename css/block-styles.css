@@ -11,6 +11,7 @@
 
 /* Special style rounded blocks*/
 .is-style-brasiliana-rounded,
+.wp-block-image.is-style-brasiliana-rounded img,
 .wp-block-cover.is-style-brasiliana-rounded::before,
 .wp-block-cover.is-style-brasiliana-rounded img.wp-block-cover__image-background,
 .wp-block-cover.is-style-brasiliana-rounded video.wp-block-cover__video-background,
