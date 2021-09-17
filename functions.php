@@ -29,7 +29,7 @@ add_action( 'enqueue_block_editor_assets', 'brasiliana_editor_side_enqueues');
 
 /* Theme special features */
 function brasiliana_theme_supported_features() {
-	add_theme_support( 'custom-units', 'px', 'rem', 'em', 'vh', 'vw' );
+	add_theme_support( 'custom-units', 'px', 'rem', 'em', '%', 'vh', 'vw' );
 	add_theme_support( 'custom-spacing' );
 	add_theme_support( 'custom-line-height' );
 }
