@@ -6,6 +6,8 @@ const performWhenDocumentIsLoaded = callback => {
         document.addEventListener('DOMContentLoaded', callback, false);
 }
 
+
+/* Sets facets search bar to affect all facets list blocks on the Inventario page */
 function syncFacetsBlockWithSearchBar() {
     let facetsSearchBar = document.getElementsByClassName('brasiliana-facets-search-bar');
     if (facetsSearchBar && facetsSearchBar.length) {
@@ -29,6 +31,7 @@ function syncFacetsBlockWithSearchBar() {
     }
 }
 
+/* Click event on the facets collapse inside the search modal */
 function setClickEventsOfSearchModalFacetsList() {
     let searchModalFacetsList = document.getElementsByClassName('brasiliana-search-modal-facets-list__header');
     if (searchModalFacetsList && searchModalFacetsList.length) {
@@ -47,8 +50,6 @@ function setClickEventsOfSearchModalFacetsList() {
 }
 
 performWhenDocumentIsLoaded(() => {
-    
     syncFacetsBlockWithSearchBar();
-
     setClickEventsOfSearchModalFacetsList();
 });

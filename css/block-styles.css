@@ -26,6 +26,7 @@
     filter: brightness(0.5);
     object-fit: cover;
     max-height: 295px;
+    height: 295px !important;
 }
 .wp-block-tainacan-carousel-terms-list .tainacan-carousel .swiper-container a > span,
 .wp-block-tainacan-carousel-terms-list .tainacan-carousel .swiper-container a:hover > span,
@@ -92,9 +93,15 @@
 .wp-block-cover h5,
 .wp-block-cover h6,
 .wp-block-cover .wp-block-tainacan-facets-list,
-.wp-block-cover .wp-block-tainacan-dynamic-items-list {
+.wp-block-cover .wp-block-tainacan-dynamic-items-list,
+.wp-block-button {
     margin-bottom: 0;
     margin-top: 0;
+}
+
+/* Outline button should have white border */
+div.is-style-outline > .wp-block-button__link {
+    border-color: white;
 }
 
 /* WordPress core Search Bar with Basiliana style */
@@ -110,7 +117,7 @@
     border: 1px solid var(--paletteColor1, #642d39);
     padding: 0 0 0 2.25em;
     min-height: 48px;
-    margin-left: -3px;
+    margin-right: -3px;
 }
 .wp-block-search.is-style-brasiliana-search-bar .wp-block-search__inside-wrapper .wp-block-search__button {
     margin-left: 0;
@@ -156,4 +163,9 @@
 .wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list ul.facets-list-edit.facets-layout-list li.facet-list-item .facet-label-and-count span:first-child {
     font-weight: bold;
     color: var(--paletteColor1, #642d39);
+}
+
+/* Figaption has a lighter color */
+.wp-block-image figcaption {
+    opacity: 0.5;
 }

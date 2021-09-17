@@ -14,6 +14,7 @@
     position: absolute;
     top: 6px;
     font-size: 14px;
+    --linkInitialColor: white;
     color: white;
     opacity: 0.75;
 }
@@ -23,7 +24,7 @@
     text-transform: uppercase;
 }
 .tainacan-collection-header .page-description {
-    color: white;
+    color: white !important;
 }
 
 .tainacan-collection-header.tainacan-collection-header--term-page {
@@ -43,7 +44,7 @@
     color: var(--paletteColor1, #642d39) !important; 
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-description {
-    color: #040203;
+    color: #040203 !important;
 }
 
 .tainacan-modal,
@@ -144,6 +145,11 @@
     column-gap: 2rem !important;
 }
 .tainacan-item-single-page .tainacan-item-single .tainacan-metadata-label {
-    --font-size: 14px !important;
+    --fontSize: 14px !important;
     color: #040203;
+}
+
+/* Single items navigation */
+.post-navigation figure {
+    border-radius: 0;
 }

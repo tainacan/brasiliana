@@ -78,6 +78,10 @@
 #search-modal .brasiliana-search-modal-facets-list__content .facet-total-items {
     font-size: 1rem;
 }
+#search-modal .brasiliana-search-modal-facets-list__content .facets-view-all-button {
+    margin: 1rem auto;
+    column-span: all;
+}
 #search-modal input {
     --form-font-size: 1.125rem;
     --form-field-height: 56px;

@@ -16,11 +16,11 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
             }
         };
     }
-
+    $brasiliana_collection_id = '130957';
     if (!$brasiliana_collection_id)
         return;
 
-    //$brasiliana_collection_id = '130957';
+    
     $collection = new \Tainacan\Entities\Collection($brasiliana_collection_id);
     
     $metadatum_repository = \tainacan_metadata();
@@ -73,7 +73,15 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
                                         <a href="<?php echo $term_link; ?>">
                                             <span class="facet-label"><?php echo $term_label; ?></span><span class="facet-total-items"><?php echo $term_total_items; ?> items</span>
                                         </a>
-                                    <?php endforeach; 
+                                    <?php endforeach;
+
+                                    if ( isset($facets['total']) && $facets['total'] > 12 ): ?>
+                                        <a 
+                                                class="facets-view-all-button"
+                                                href="<?php echo '/inventario#' . $metadatum->get_slug(); ?>">
+                                            Ver todas as facetas.
+                                        </a>
+                                    <?php endif;
                                 ?>
                             </div>
                         </details>
