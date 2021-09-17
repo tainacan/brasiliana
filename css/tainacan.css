@@ -123,6 +123,18 @@
 .theme-items-list .tainacan-modal-content {
     padding: 40px var(--tainacan-one-column, 4.166666667%);
 }
+.theme-items-list .search-control .search-control-item .search-area input {
+    border-color: transparent;
+    background: #f2f2f2;
+    padding: 10px 16px;
+    border-radius: 8px !important;
+    overflow: hide;
+    margin-top: -3px;
+}
+.theme-items-list .search-control .search-control-item .search-area .icon i {
+    font-size: 1rem;
+    margin-top: -4px;
+}
 
 @media screen and (max-width: 768px) {
     .filters-menu:not(.filters-menu-modal) {
