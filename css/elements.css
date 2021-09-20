@@ -6,6 +6,50 @@
     visibility: hidden;
 }
 
+/* Adds arrow bars to Swiper navigation buttons */
+.tainacan-icon-next::after,
+.tainacan-icon-previous::after,
+.swiper-button-next::before,
+.swiper-button-prev::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+.swiper-button-next::before,
+.swiper-button-prev::before {
+    background: var(--swiper-theme-color);
+    opacity: 0.7;
+    width: 1.5rem;
+    height: 0.25rem;
+    top: 1.115rem;
+}
+.tainacan-icon-next::after,
+.tainacan-icon-previous::after {
+    width: 1.15rem;
+    height: 0.18rem;
+    top: 0.565rem;
+}
+.swiper-button-next::before,
+.swiper-container-rtl .swiper-button-prev::before {
+    right: 0.25rem;
+}
+.tainacan-icon-next::after {
+    right: 0.45rem;
+}
+.swiper-button-prev::before,
+.swiper-container-rtl .swiper-button-next::before {
+    left: 0.25rem;
+}
+.tainacan-icon-previous::after {
+    left: 0.45rem;
+}
+.tainacan-media-component__swiper-main:hover .swiper-button-next::before,
+.tainacan-media-component__swiper-main:hover .swiper-button-prev::before,
+.tainacan-media-component__swiper-thumbs:hover .swiper-button-next::before,
+.tainacan-media-component__swiper-thumbs:hover .swiper-button-prev::before {
+    opacity: 1;
+}
+
 /* GetWid Slick Carousel arrows */
 .slick-next::before,
 .slick-prev::before {
@@ -32,4 +76,42 @@
     position: absolute;
     top: 6px;
     z-index: 2;
+}
+
+/* Custom Header elements */
+.brasiliana-header-elements {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    z-index: 2;
+}
+
+.brasiliana-header-elements .brasiliana-header-button {
+    border: 1px solid var(--palette-color-10, #adcfd8);
+    background-color: transparent;
+    border-radius: 100%;
+    padding: 0.5rem 1.2rem 0.5rem 0.8rem;
+    height: 56px;
+    width: 56px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.brasiliana-header-elements .brasiliana-header-button::hover,
+.brasiliana-header-elements .brasiliana-header-button::focus {
+    border: 1px solid var(--palette-color-10, #adcfd8);
+}
+.brasiliana-header-elements .brasiliana-header-button .icon {
+    position: relative;
+}
+.brasiliana-header-elements .brasiliana-header-button .icon i::before {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: var(--paletteColor1, #642d39);
+}
+.brasiliana-header-elements .brasiliana-header-button .icon i::after {
+    background-color: var(--paletteColor1, #642d39);
 }
