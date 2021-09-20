@@ -20,11 +20,11 @@ function brasiliana_block_patterns()
             'categories' => array('brasiliana'),
             'content'     => '
             <!-- wp:image {"align":"center","id":163601,"width":842,"height":478,"sizeSlug":"full","linkDestination":"none","className":"is-style-brasiliana-rounded is-brasiliana-museo-cover"} -->
-            <div class="wp-block-image is-style-brasiliana-rounded"><figure class="aligncenter size-full is-resized"><img src="https://integracaoibram.tainacan.org/wp-content/uploads/2021/09/MuseuDaAbolicao-edited.jpg" alt="" class="wp-image-163601" width="842" height="478"/></figure></div>
+            <div class="wp-block-image is-style-brasiliana-rounded is-brasiliana-museo-cover"><figure class="aligncenter size-full is-resized"><img src="https://integracaoibram.tainacan.org/wp-content/uploads/2021/09/MuseuDaAbolicao-edited.jpg" alt="" class="wp-image-163601" width="842" height="478"/></figure></div>
             <!-- /wp:image -->
             
             <!-- wp:group {"className": "is-brasiliana-museo-group", "style":{"spacing":{"padding":{"top":"0%","right":"15%","bottom":"0%","left":"15%"}}}} -->
-                <div class="wp-block-group" style="padding-top:0%;padding-right:15%;padding-bottom:0%;padding-left:15%"><!-- wp:image {"align":"center","id":163573,"width":124,"height":124,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded is-brasiliana-museo-logo"} -->
+                <div class="wp-block-group is-brasiliana-museo-group" style="padding-top:0%;padding-right:15%;padding-bottom:0%;padding-left:15%"><!-- wp:image {"align":"center","id":163573,"width":124,"height":124,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded is-brasiliana-museo-logo"} -->
                 <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="https://integracaoibram.tainacan.org/wp-content/uploads/2021/09/MuseuAbolicao-1.png" alt="" class="wp-image-163573" width="124" height="124"/></figure></div>
                 <!-- /wp:image -->
                 
