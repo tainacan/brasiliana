@@ -49,3 +49,23 @@ footer .widget_search+.widget_nav_menu .widget-menu {
         column-count: 1;
     }
 }
+
+/* NewsLetter Subscribe area */
+.ct-newsletter-subscribe-widget {
+    background-color: var(--palette-color-10, #adcfd8);
+    border-radius: 8px;
+}
+
+.ct-newsletter-subscribe-widget .widget-title {
+    font-family: 'Barlow Condensed', Sans-Serif !important;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--paletteColor1, #642d39);
+}
+
+.ct-newsletter-subscribe-widget .ct-newsletter-subscribe-description {
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+}
