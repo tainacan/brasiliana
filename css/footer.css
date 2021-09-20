@@ -36,6 +36,57 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     font-size: 22px;
 }
 
+/* NewsLetter Subscribe area */
+.ct-newsletter-subscribe-widget {
+    background-color: var(--palette-color-10, #adcfd8);
+    border-radius: 8px;
+    padding: 48px 100px;
+}
+
+.ct-newsletter-subscribe-widget .widget-title {
+    font-family: 'Barlow Condensed', Sans-Serif !important;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: var(--paletteColor1, #642d39);
+}
+
+.ct-newsletter-subscribe-widget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ct-newsletter-subscribe-widget .ct-newsletter-subscribe-description {
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+.ct-newsletter-subscribe-widget input {
+    margin-left: auto;
+    max-width: 460px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0 0 0 2.25em;
+    min-height: 48px;
+    margin-right: -3px;
+}
+.ct-newsletter-subscribe-widget input:hover,
+.ct-newsletter-subscribe-widget input:focus {
+    border: 1px solid var(--paletteColor1, #642d39);
+}
+
+
+.ct-newsletter-subscribe-widget button{
+    min-height: 48px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 @media screen and (max-width: 960px) {
     footer div[data-column="widget-area-1"],
     footer .ct-socials-widget+.widget_text,
@@ -48,24 +99,8 @@ footer .widget_search+.widget_nav_menu .widget-menu {
         -webkit-column-count: 1;
         column-count: 1;
     }
-}
 
-/* NewsLetter Subscribe area */
-.ct-newsletter-subscribe-widget {
-    background-color: var(--palette-color-10, #adcfd8);
-    border-radius: 8px;
-}
-
-.ct-newsletter-subscribe-widget .widget-title {
-    font-family: 'Barlow Condensed', Sans-Serif !important;
-    font-weight: bold;
-    font-size: 48px;
-    text-transform: uppercase;
-    color: var(--paletteColor1, #642d39);
-}
-
-.ct-newsletter-subscribe-widget .ct-newsletter-subscribe-description {
-    font-weight: 300;
-    font-size: 22px;
-    text-transform: uppercase;
+    .ct-newsletter-subscribe-widget {
+        padding: 36px 64px;
+    }
 }
