@@ -82,6 +82,7 @@ footer .widget_search+.widget_nav_menu .widget-menu {
 
 
 .ct-newsletter-subscribe-widget button{
+    width: auto;
     min-height: 48px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
