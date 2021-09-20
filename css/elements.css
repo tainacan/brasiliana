@@ -69,7 +69,8 @@
 }
 
 /* Puts the breadcrumb on top of the page */
-#main>.ct-container-full {
+#main>.ct-container-full,
+#main>.ct-container {
     position: relative;
 }
 .hero-section .ct-breadcrumbs {
