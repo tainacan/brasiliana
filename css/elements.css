@@ -69,13 +69,12 @@
 }
 
 /* Puts the breadcrumb on top of the page */
-#main>.ct-container-full,
-#main>.ct-container {
+.hero-section {
     position: relative;
 }
 .hero-section .ct-breadcrumbs {
     position: absolute;
-    top: 6px;
+    top: calc(-1 * var(--content-vertical-spacing) - 1rem);
     z-index: 2;
 }
 
@@ -85,7 +84,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 6px;
+    top: calc(-1 * var(--content-vertical-spacing) - 1rem);
     right: 0;
     z-index: 2;
 }

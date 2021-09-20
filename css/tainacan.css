@@ -9,6 +9,7 @@
     margin-right: auto;
     width: var(--container-width);
     max-width: var(--container-max-width);
+    padding: 20px 80px 20px 20px;
 }
 .tainacan-collection-header .ct-breadcrumbs {
     position: absolute;
