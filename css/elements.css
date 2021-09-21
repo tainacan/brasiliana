@@ -139,6 +139,7 @@
 .brasiliana-social-icons [data-icons-type] > * {
     padding: 12px;
     border: 1px solid var(--palette-color-10, #adcfd8);
+    background-color: white;
     display: block;
     border-radius: 100%;
     margin-bottom: 0px;
