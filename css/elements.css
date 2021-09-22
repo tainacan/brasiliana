@@ -80,12 +80,16 @@
 
 /* Custom Header elements */
 .brasiliana-header-elements {
-    float: right;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: calc(-1 * var(--content-vertical-spacing) - 1rem);
-    right: 0;
+    z-index: 2;
+    max-width: var(--block-max-width, var(--container-max-width));
+    width: 100%;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+    position: relative;
     z-index: 2;
 }
 
@@ -98,8 +102,11 @@
     width: 56px;
     margin-bottom: 8px;
     margin-left: 8px;
-    position: relative;
+    position: absolute;
     cursor: pointer;
+}
+.brasiliana-header-elements .brasiliana-header-button:first-child {
+    top: -60px;
 }
 .brasiliana-header-elements .brasiliana-header-button::hover,
 .brasiliana-header-elements .brasiliana-header-button::focus {
@@ -115,6 +122,10 @@
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i::after {
     background-color: var(--paletteColor1, #642d39);
+}
+.brasiliana-header-elements .brasiliana-header-button .icon i.dashicons {
+    line-height: 1.875rem;
+    width: 1.75rem;
 }
 
 /* Brasiliana Social Icons share list */
