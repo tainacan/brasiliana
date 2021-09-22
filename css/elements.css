@@ -53,15 +53,15 @@
 /* GetWid Slick Carousel arrows */
 .slick-next::before,
 .slick-prev::before {
-    font-family: 'TainacanIcons';
+    font-family: 'dashicons';
     font-size: 30px;
     color: var(--tainacan-block-primary, #298596);
 }
 .slick-next::before {
-    content: 'next';
+    content: '\f344';
 }
 .slick-prev::before {
-    content: 'previous'
+    content: '\f340'
 }
 .slick-arrow {
     width: 42px;

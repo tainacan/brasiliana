@@ -6,10 +6,10 @@
     padding-right: 0;
 }
 #search-modal .search-form {
-    margin-top: -5rem;
+    margin-bottom: 0;
 }
 #search-modal .brasiliana-search-modal-facets-list {
-    margin: 0 auto;
+    margin: 0 auto auto auto;
     width: 100%;
 }
 #search-modal .brasiliana-search-modal-facets-list__header {

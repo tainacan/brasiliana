@@ -49,6 +49,7 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     font-size: 48px;
     text-transform: uppercase;
     color: var(--paletteColor1, #642d39);
+    margin-bottom: 0;
 }
 .ct-newsletter-subscribe-widget .ct-widget-inner {
     width: 100%;
@@ -65,11 +66,14 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     font-size: 22px;
     text-transform: uppercase;
     margin-right: auto;
+    margin-bottom: 0;
+    max-width: 306px;
 }
 
 .ct-newsletter-subscribe-widget input {
+    margin-top: 0;
     margin-left: auto;
-    max-width: 460px;
+    max-width: 420px;
     background-color: white;
     border: 1px solid #dddddd;
     border-top-left-radius: 8px;
@@ -77,18 +81,27 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     padding: 0 0 0 2.25em;
     min-height: 48px;
     margin-right: -3px;
+    position: relative;
+    top: -18px;
 }
 .ct-newsletter-subscribe-widget input:hover,
 .ct-newsletter-subscribe-widget input:focus {
     border: 1px solid var(--paletteColor1, #642d39);
 }
 
-
 .ct-newsletter-subscribe-widget button {
-    width: auto;
+    width: auto !important;
     min-height: 48px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    color: var(--buttonTextInitialColor);
+    border: var(--button-border);
+    background-color: var(--buttonInitialColor);
+}
+.ct-newsletter-subscribe-widget button:hover {
+    border-color: var(--button-border-hover-color);
+    color: var(--buttonTextHoverColor);
+    background-color: var(--buttonHoverColor);
 }
 
 @media screen and (max-width: 960px) {
@@ -104,11 +117,17 @@ footer .widget_search+.widget_nav_menu .widget-menu {
         column-count: 1;
     }
 
+    .ct-newsletter-subscribe-widget {
+        padding: 36px 64px;
+    }
+}
+@media screen and (max-width: 1216px) {
     .ct-newsletter-subscribe-widget .ct-widget-inner form {
         flex-wrap: wrap;
     }
-
-    .ct-newsletter-subscribe-widget {
-        padding: 36px 64px;
+    .ct-newsletter-subscribe-widget input {
+        top: 0px;
+        margin-top: 4px;
+        margin-left: 0;
     }
 }
