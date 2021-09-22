@@ -52,8 +52,8 @@ if ( function_exists('register_block_style') ) {
         register_block_style(
             'core/image',
             array(
-                'name'  => 'brasiliana-rounded',
-                'label' =>  __('Arredondado Brasiliana', 'brasiliana'),
+                'name'  => 'brasiliana-item-image',
+                'label' =>  __('Imagem de Item Brasiliana', 'brasiliana'),
                 'isDefault' => false,
             )
         );
@@ -78,6 +78,15 @@ if ( function_exists('register_block_style') ) {
 
         register_block_style(
             'core/search',
+            array(
+                'name'  => 'brasiliana-search-bar',
+                'label' =>  __('Barra de Busca Brasiliana', 'brasiliana'),
+                'isDefault' => true,
+            )
+        );
+
+        register_block_style(
+            'core/image',
             array(
                 'name'  => 'brasiliana-search-bar',
                 'label' =>  __('Barra de Busca Brasiliana', 'brasiliana'),

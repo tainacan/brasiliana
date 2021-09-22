@@ -149,3 +149,8 @@
 .brasiliana-social-icons.is-list-open [data-icons-type] > * {
     margin-bottom: 8px;
 }
+
+/* Single post header for curadorias */
+body.single-post .hero-section .page-description {
+    max-width: 624px;
+}

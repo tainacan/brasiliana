@@ -97,6 +97,8 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     color: var(--buttonTextInitialColor);
     border: var(--button-border);
     background-color: var(--buttonInitialColor);
+    position: relative;
+    top: -18px;
 }
 .ct-newsletter-subscribe-widget button:hover {
     border-color: var(--button-border-hover-color);
@@ -129,5 +131,15 @@ footer .widget_search+.widget_nav_menu .widget-menu {
         top: 0px;
         margin-top: 4px;
         margin-left: 0;
+        width: 100%;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .ct-newsletter-subscribe-widget button {
+        top: 0px;
+        margin-top: 4px;
+        width: 100% !important;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
     }
 }
