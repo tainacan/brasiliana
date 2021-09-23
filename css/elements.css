@@ -71,6 +71,7 @@
 /* Puts the breadcrumb on top of the page */
 .hero-section {
     position: relative;
+    padding-right: 64px;
 }
 .hero-section .ct-breadcrumbs {
     position: absolute;

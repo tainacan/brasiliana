@@ -19,6 +19,9 @@
     color: white;
     opacity: 0.75;
 }
+.tainacan-collection-header .brasiliana-header-elements {
+   top: calc(-1 * var(--content-vertical-spacing) + 6px);
+}
 .tainacan-collection-header .page-title {
     color: var(--palette-color-9, #ecd297);
     font-size: 48px;
