@@ -13,7 +13,7 @@
 }
 .tainacan-collection-header .ct-breadcrumbs {
     position: absolute;
-    top: 6px !important;
+    top: calc(-1 * var(--content-vertical-spacing) + 6px) !important;
     font-size: 14px;
     --linkInitialColor: white;
     color: white;

@@ -110,13 +110,13 @@
 .brasiliana-header-elements .brasiliana-header-button:first-child {
     top: 6px;
 }
-.brasiliana-header-elements .brasiliana-header-button:first-child {
+.brasiliana-header-elements .brasiliana-header-button:last-child {
     top: calc( var(--content-vertical-spacing) + 8px);
 }
 [data-vertical-spacing*="top"] .brasiliana-header-elements .brasiliana-header-button:first-child {
     top: calc((-1 * var(--content-vertical-spacing)) + 6px);
 }
-[data-vertical-spacing*="top"] .brasiliana-header-elements .brasiliana-header-button:first-child {
+[data-vertical-spacing*="top"] .brasiliana-header-elements .brasiliana-header-button:last-child {
     top: 8px;
 }
 .brasiliana-header-elements .brasiliana-header-button::hover,
