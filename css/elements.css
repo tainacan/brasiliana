@@ -74,8 +74,11 @@
 }
 .hero-section .ct-breadcrumbs {
     position: absolute;
-    top: calc(-1 * var(--content-vertical-spacing) - 1rem);
+    top: 6px;
     z-index: 2;
+}
+[data-vertical-spacing*="top"] .hero-section .ct-breadcrumbs {
+    top: calc(-1 * var(--content-vertical-spacing) - 1rem);
 }
 
 /* Custom Header elements */
@@ -85,7 +88,6 @@
     z-index: 2;
     max-width: var(--block-max-width, var(--container-max-width));
     width: 100%;
-    margin-top: 6px;
     margin-left: auto;
     margin-right: auto;
     align-items: flex-end;
@@ -106,7 +108,16 @@
     cursor: pointer;
 }
 .brasiliana-header-elements .brasiliana-header-button:first-child {
-    top: -60px;
+    top: 6px;
+}
+.brasiliana-header-elements .brasiliana-header-button:first-child {
+    top: calc( var(--content-vertical-spacing) + 8px);
+}
+[data-vertical-spacing*="top"] .brasiliana-header-elements .brasiliana-header-button:first-child {
+    top: calc((-1 * var(--content-vertical-spacing)) + 6px);
+}
+[data-vertical-spacing*="top"] .brasiliana-header-elements .brasiliana-header-button:first-child {
+    top: 8px;
 }
 .brasiliana-header-elements .brasiliana-header-button::hover,
 .brasiliana-header-elements .brasiliana-header-button::focus {

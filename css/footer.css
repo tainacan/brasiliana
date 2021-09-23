@@ -66,7 +66,7 @@ footer .widget_search+.widget_nav_menu .widget-menu {
     font-size: 22px;
     text-transform: uppercase;
     margin-right: auto;
-    margin-bottom: 0;
+    margin-bottom: 0px !important;
     max-width: 306px;
 }
 
