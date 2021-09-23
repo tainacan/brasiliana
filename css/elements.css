@@ -7,6 +7,9 @@
 }
 
 /* Adds arrow bars to Swiper navigation buttons */
+.swiper-button-disabled {
+    display: none;
+}
 .tainacan-icon-next::after,
 .tainacan-icon-previous::after,
 .swiper-button-next::before,
@@ -80,6 +83,9 @@
 }
 [data-vertical-spacing*="top"] .hero-section .ct-breadcrumbs {
     top: calc(-1 * var(--content-vertical-spacing) - 1rem);
+}
+[data-vertical-spacing*="top"] .hero-section .ct-breadcrumbs:only-child {
+    top: calc(-1 * var(--content-vertical-spacing));
 }
 
 /* Custom Header elements */

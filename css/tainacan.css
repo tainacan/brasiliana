@@ -52,6 +52,11 @@
     color: #040203 !important;
 }
 
+/* In the Museo taxonomy, we don't want to shot the title label, is redundant */
+body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term-page .ct-title-label {
+    display: none;
+}
+
 /* The items list component */
 .tainacan-modal,
 .theme-items-list {
