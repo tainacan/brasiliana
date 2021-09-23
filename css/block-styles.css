@@ -186,7 +186,7 @@ div.is-style-outline > .wp-block-button__link {
 }
 
 /* When displaying image as an item, the caption should be different */
-.wp-block-image .is-sytle-brasiliana-item-image figcaption {
+.wp-block-image .is-style-brasiliana-item-image figcaption {
     text-align: left;
     --fontSize: 1rem;
 }
