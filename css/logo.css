@@ -136,7 +136,7 @@ svg.acervo-logo-completo:hover path {
 svg.acervo-logo-completo path {
     transform-origin: center;
 }
-svg.acervo-logo-expansao,
+/* svg.acervo-logo-expansao,
 svg.acervo-logo-completo {
     animation-name: logo_pulse;
     animation-play-state: paused;
@@ -145,7 +145,7 @@ svg.acervo-logo-completo {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
     display: block;
-}
+} */
 svg.acervo-logo-expansao path {
     animation-play-state: paused;
     animation-duration: 1.5s;
