@@ -190,3 +190,15 @@ div.is-style-outline > .wp-block-button__link {
     text-align: left;
     --fontSize: 1rem;
 }
+
+/* Slick carousel arrows should be accent color */
+.wp-block-getwid-images-slider .slick-prev::before,
+.wp-block-getwid-images-slider .slick-next::before,
+.wp-block-getwid-media-text-slider .slick-prev::before,
+.wp-block-getwid-media-text-slider .slick-next::before,
+.wp-block-getwid-post-slider .slick-prev::before,
+.wp-block-getwid-post-slider .slick-next::before,
+.wp-block-getwid-post-carousel .slick-prev::before,
+.wp-block-getwid-post-carousel .slick-next::before {
+    color: var(--paletteColor1, #642d39);
+}

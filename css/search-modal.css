@@ -3,10 +3,12 @@
     width: var(--container-width);
     max-width: var(--container-max-width);
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 7px;
+    padding-top: 1rem;
 }
 #search-modal .search-form {
     margin-bottom: 0;
+    --form-field-border-focus-color: var(--palette-color-9, #ecd297) !important;
 }
 #search-modal .brasiliana-search-modal-facets-list {
     margin: 0 auto auto auto;
