@@ -21,6 +21,15 @@ if ( function_exists('register_block_style') ) {
                 'isDefault' => false,
             )
         );
+        
+        register_block_style(
+            'getwid/images-slider',
+            array(
+                'name'  => 'brasiliana-rounded',
+                'label' =>  __('Arredondado Brasiliana', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
 
         register_block_style(
             'core/cover',

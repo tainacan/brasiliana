@@ -21,6 +21,9 @@
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
     border-radius: 8px;
 }
+.wp-block-getwid-images-slider.is-style-brasiliana-rounded wp-block-getwid-images-slider__item {
+    border-radius: 8px;
+}
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
     -webkit-filter: brightness(0.5);
@@ -132,7 +135,7 @@ div.is-style-outline > .wp-block-button__link {
 
 /* Cover images carousel with figcaption layer to darken it */
 .wp-block-getwid-images-slider.has-captions .wp-block-getwid-images-slider__item figcaption {
-    display: flex;
+    display: flex !important;
     align-items: flex-end;
     font-size: 22px;
     font-weight: bold;
