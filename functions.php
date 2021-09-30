@@ -50,3 +50,6 @@ require get_stylesheet_directory() . '/inc/elements.php';
 
 // Presets customizer values
 require get_stylesheet_directory() . '/inc/customizer.php';
+
+// Filter submission
+require get_stylesheet_directory() . '/inc/submission-filters.php';
