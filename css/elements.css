@@ -97,9 +97,47 @@
 .brasiliana-header-elements .brasiliana-header-button .icon i::after {
     background-color: var(--paletteColor1, #642d39);
 }
+.brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
+    color: var(--paletteColor2, #30020C);
+}
+.brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
+    background-color: var(--paletteColor2, #30020C);
+}
+.brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
+    color: var(--palette-color14, #e5acb9);
+}
+.brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
+    background-color: var(--palette-color14, #e5acb9);
+}
 .brasiliana-header-elements .brasiliana-header-button .icon i.dashicons {
     line-height: 1.875rem;
     width: 1.75rem;
+}
+
+/* Header buttons inside dark backrounds */
+body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::before,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button .icon i::before {
+    color: var(--paletteColor1, #642d39);
+}
+body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::after,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button .icon i::after {
+    background-color: var(--paletteColor1, #642d39);
+}
+body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
+    color: var(--paletteColor2, #30020C);
+}
+body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
+    background-color: var(--paletteColor2, #30020C);
+}
+body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
+    color: var(--palette-color14, #e5acb9);
+}
+body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after,
+header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
+    background-color: var(--palette-color14, #e5acb9);
 }
 
 /* Brasiliana Social Icons share list */

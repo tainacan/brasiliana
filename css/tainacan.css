@@ -99,6 +99,9 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
     margin-left: 4px;
     order: 2;
 }
+.theme-items-list #filters-items-list .collapse-all {
+    margin-bottom: 0.75rem;
+}
 .tainacan-modal .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowright::before,
 .theme-items-list .filter-item-forms .collapse-trigger .icon .tainacan-icon-arrowright::before,
 .tainacan-modal #filters-items-list .collapse-all .icon .tainacan-icon-arrowright::before,
