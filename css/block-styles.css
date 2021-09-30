@@ -236,7 +236,8 @@ div.is-style-outline > .wp-block-button__link {
 /* Outline button to be used on dark backgrounds */
 .is-style-brasiliana-outline-dark > .wp-block-button__link,
 .wp-block-button__link.is-style-brasiliana-outline-dark {
-    border: 2px solid currentColor;
+    border-width: 2px !important;
+    border-style: solid !important;
 }
 .wp-block-button.is-style-brasiliana-outline-dark:not(.has-background),
 .wp-block-button.is-style-brasiliana-outline-dark .wp-block-button__link:not(.has-background) {
