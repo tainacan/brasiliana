@@ -103,6 +103,24 @@ if ( function_exists('register_block_style') ) {
             )
         );
 
+        register_block_style(
+            'core/button',
+            array(
+                'name'  => 'brasiliana-fill-dark',
+                'label' =>  __('Preenchido fundo escuro', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
+
+        register_block_style(
+            'core/button',
+            array(
+                'name'  => 'brasiliana-outline-dark',
+                'label' =>  __('Contorno fundo escuro', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
+
     }
     add_action('init', 'brasiliana_block_styles');
 }
