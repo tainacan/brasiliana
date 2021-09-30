@@ -9,14 +9,14 @@ function brasiliana_filter_palette( $args ) {
 			'color' => 'var(--paletteColor1, #642d39)'
 		),
 		array(
-			'name' => 'Açaí Brasiliana Claro',
+			'name' => 'Açaí Brasiliana Escuro',
 			'slug' => 'palette-color-2',
-			'color' => 'var(--paletteColor2, #923146)'
+			'color' => 'var(--paletteColor2, #30020C)'
 		),
 		array(
 			'name' => 'Cor de Texto Brasiliana',
 			'slug' => 'palette-color-3',
-			'color' => 'var(--paletteColor3, #1e1e15)'
+			'color' => 'var(--paletteColor3, #040203)'
 		),
 		array(
 			'name' => 'Cor de Título Brasiliana',
@@ -51,7 +51,7 @@ function brasiliana_filter_palette( $args ) {
 		array(
 			'name' => 'Céu Brasiliana',
 			'slug' => 'palette-color-10',
-			'color' => 'var(--paletteColor10, #adcfd8)'
+			'color' => 'var(--paletteColor10, #accfd8)'
 		),
 		array(
 			'name' => 'Abacate Brasiliana',
@@ -69,10 +69,50 @@ function brasiliana_filter_palette( $args ) {
 			'color' => 'var(--paletteColor13, #cd403c)'
 		),
 		array(
-			'name' => 'Laranja mais claro alt CTRL+S',
+			'name' => 'Açaí Brasiliana claro',
 			'slug' => 'palette-color-14',
-			'color' => 'var(--paletteColor14, #ffd299)'
+			'color' => 'var(--paletteColor14, #e5acb9)'
 		),
+		array(
+			'name' => 'Palha Brasiliana mais clara',
+			'slug' => 'palette-color-15',
+			'color' => 'var(--paletteColor15, #ffebbd)'
+		),
+		array(
+			'name' => 'Palha Brasiliana mais escura',
+			'slug' => 'palette-color-16',
+			'color' => 'var(--paletteColor16, #806a38)'
+		),
+		array(
+			'name' => 'Céu Brasiliana mais claro',
+			'slug' => 'palette-color-17',
+			'color' => 'var(--paletteColor17, #DAEDF2)'
+		),
+		array(
+			'name' => 'Céu Brasiliana mais escuro',
+			'slug' => 'palette-color-18',
+			'color' => 'var(--paletteColor14, #54818C)'
+		),
+		array(
+			'name' => 'Escuro Brasiliana',
+			'slug' => 'palette-color-19',
+			'color' => 'var(--paletteColor19, #111111)'
+		),
+		array(
+			'name' => 'Claro Brasiliana',
+			'slug' => 'palette-color-20',
+			'color' => 'var(--paletteColor20, #f5f5f5)'
+		),
+		array(
+			'name' => 'Cinza Brasiliana',
+			'slug' => 'palette-color-21',
+			'color' => 'var(--paletteColor21, #dddddd)'
+		),
+		array(
+			'name' => 'Mais cinza Brasiliana',
+			'slug' => 'palette-color-22',
+			'color' => 'var(--paletteColor22, #666666)'
+		)
 	);
 }
 add_filter( 'blocksy:editor-color-palette', 'brasiliana_filter_palette' );

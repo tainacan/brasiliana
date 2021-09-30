@@ -38,7 +38,7 @@ footer .widget_search+.widget_nav_menu .widget-menu {
 
 /* NewsLetter Subscribe area */
 .ct-newsletter-subscribe-widget {
-    background-color: var(--palette-color-10, #adcfd8);
+    background-color: var(--palette-color-10, #accfd8);
     border-radius: 8px;
     padding: 48px 100px;
 }
