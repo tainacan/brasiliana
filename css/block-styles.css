@@ -254,8 +254,8 @@ div.is-style-outline > .wp-block-button__link {
 }
 .wp-block-button.is-style-brasiliana-outline-dark:hover:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-outline-dark:hover .wp-block-button__link:not(.has-text-color) {
-    color: var(--palette-color-14, #e5acb9);
-    border-color: var(--palette-color-14, #e5acb9);
+    color: var(--palette-color-10, #accfd8);
+    border-color: var(--palette-color-10, #accfd8);
 }
 .wp-block-button.is-style-brasiliana-outline-dark:focus:not(.has-background),
 .wp-block-button.is-style-brasiliana-outline-dark:focus .wp-block-button__link:not(.has-background)  {
@@ -263,8 +263,8 @@ div.is-style-outline > .wp-block-button__link {
 }
 .wp-block-button.is-style-brasiliana-outline-dark:focus:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-outline-dark:focus .wp-block-button__link:not(.has-text-color){
-    color: var(--palette-color-2, #30020C);
-    border-color: var(--palette-color-2, #30020C);
+    color: var(--palette-color-14, #e5acb9);
+    border-color: var(--palette-color-14, #e5acb9);
 }
 
 /* Default outlined buttons should be really outline */

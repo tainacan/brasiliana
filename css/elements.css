@@ -117,11 +117,11 @@
 /* Header buttons inside dark backrounds */
 body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button .icon i::before {
-    color: var(--paletteColor1, #642d39);
+    color: var(--paletteColor7, #ffffff);
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button .icon i::after {
-    background-color: var(--paletteColor1, #642d39);
+    background-color: var(--paletteColor7, #ffffff);
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
