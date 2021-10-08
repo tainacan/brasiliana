@@ -66,11 +66,13 @@ function tainacan_get_source_item_list_url() {
  */
 function brasiliana_add_link_to_items_list() {
     
-    $collections_post_types = \Tainacan\Repositories\Repository::get_collections_db_identifiers();
-    $current_post_type = get_post_type();
-        
-    if (in_array($current_post_type, $collections_post_types)) {
-        echo ('<div class="item-navigation-source-link"><a href="' . tainacan_get_source_item_list_url() . '">Voltar para a lista de itens</a></div>');
+    if ( is_singular() ) {
+        $collections_post_types = \Tainacan\Repositories\Repository::get_collections_db_identifiers();
+        $current_post_type = get_post_type();
+            
+        if (in_array($current_post_type, $collections_post_types)) {
+            echo ('<div class="item-navigation-source-link"><a href="' . tainacan_get_source_item_list_url() . '">Voltar para a lista de itens</a></div>');
+        }
     }
 }
 add_action('blocksy:template:after', 'brasiliana_add_link_to_items_list');
