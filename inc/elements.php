@@ -7,7 +7,7 @@ function brasiliana_add_share_and_back_buttons() {
     ?>
     <div class="brasiliana-header-elements">
         <button class="brasiliana-header-button brasiliana-header-button--back" onclick="event.preventDefault(); window && window.history && window.history ? window.history.back() : null">
-            <span class="icon">
+            <span class="icon is-medium">
                 <i class="dashicons dashicons-arrow-left-alt"></i>
             </span>
         </button>
