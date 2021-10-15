@@ -25,7 +25,13 @@ if (class_exists('\Tainacan\Entities\Item')) {
 							$response = $item_repo->fetch($args, $collection );
 							if ( $response->have_posts() ) {
 								$id = $response->posts[0]->ID;
-								return new \Tainacan\Entities\Item($id);
+								$storage_item = new \Tainacan\Entities\Item($id);
+								$storage_item->set_description($item->get_description());
+								$storage_item->set_title($item->get_title());
+								$storage_item->set_document_type($item->get_document_type());
+								$storage_item->set_document($item->get_document());
+								$storage_item->set_document_options($item->get_document_options());
+								return $storage_item;
 							}
 							return $item;
 						}
