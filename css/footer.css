@@ -1,13 +1,12 @@
-/* First Widget area is smaller */
-footer div[data-column="widget-area-1"] {
-    max-width: 90%;
-}
 
 /* Bellow the logo, a smaller text size */
 footer .ct-socials-widget+.widget_text,
 footer .widget_text+.widget_text {
     font-size: 14px;
     max-width: 80%;
+}
+footer .wp-block-group__inner-container p.has-text-color {
+    margin-bottom: 6px;
 }
 footer .widget_text:last-of-type {
     color: var(--paletteColor8, #f5f4ed);

@@ -69,6 +69,12 @@
     display: block;
 }
 
+/* Inner content of cover blocks should be 100% even with the positioning set to custom */
+.wp-block-cover-image.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container,
+.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+    width: 100%;
+}
+
 /* Brasiliana museu cards (also home page) */
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container {
     width: 100% !important;
@@ -211,7 +217,6 @@ div.is-style-outline > .wp-block-button__link {
 
 /* New styles for buttons in dark backgrounds */
 /* Fill button to be used on dark backgrounds */
-.wp-block-button.is-style-brasiliana-fill-dark:not(.has-background),
 .wp-block-button.is-style-brasiliana-fill-dark .wp-block-button__link:not(.has-background) {
     background-color: var(--palette-color-15, #ffebbd);
 }
@@ -219,7 +224,6 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-button.is-style-brasiliana-fill-dark .wp-block-button__link:not(.has-text-color) {
     color: var(--palette-color-1, #642d39);
 }
-.wp-block-button.is-style-brasiliana-fill-dark:hover:not(.has-background),
 .wp-block-button.is-style-brasiliana-fill-dark:hover .wp-block-button__link:not(.has-background)  {
     background-color: var(--palette-color-9, #ecd297);
 }
@@ -227,7 +231,6 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-button.is-style-brasiliana-fill-dark:hover .wp-block-button__link:not(.has-text-color) {
     color: var(--palette-color-1, #642d39);
 }
-.wp-block-button.is-style-brasiliana-fill-dark:focus:not(.has-background),
 .wp-block-button.is-style-brasiliana-fill-dark:focus .wp-block-button__link:not(.has-background)  {
     background-color: var(--palette-color-16, #806a38);
 }
