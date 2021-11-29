@@ -3,7 +3,7 @@
 Theme Name: Brasiliana
 Description: Brasiliana Museus - a child theme of Blocksy
 Author: wetah
-Version: 0.1.4
+Version: 0.1.5
 Text Domain: brasiliana
 */
 
@@ -12,11 +12,11 @@ if (! defined('WP_DEBUG')) {
 }
 
 /** Child Theme version */
-const BRASILIANA_VERSION = '0.1.4';
+const BRASILIANA_VERSION = '0.1.5';
 
 /* Enqueues necessary JS and CSS files */
 add_action( 'wp_enqueue_scripts', function () {
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.min.css' );
 	wp_enqueue_style( 'brasiliana-style', get_stylesheet_uri(), array('parent-style'), BRASILIANA_VERSION );
 	wp_enqueue_style( 'dashicons' ); // Used in some parts of the theme, even if not logged.
 	wp_enqueue_script( 'brasiliana-search-scripts', get_stylesheet_directory_uri() . '/js/search-scripts.js', array(), BRASILIANA_VERSION );
@@ -24,7 +24,7 @@ add_action( 'wp_enqueue_scripts', function () {
 
 /* Enqueues block side CSS files */
 function brasiliana_editor_side_enqueues() {
-	wp_enqueue_style( 'brasiliana-editor-styles', get_stylesheet_directory_uri() . '/css/block-styles.css', array(), BRASILIANA_VERSION );
+	wp_enqueue_style( 'brasiliana-editor-styles', get_stylesheet_directory_uri() . '/editor.min.css', array(), BRASILIANA_VERSION );
 }
 add_action( 'enqueue_block_editor_assets', 'brasiliana_editor_side_enqueues');
 

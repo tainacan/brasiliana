@@ -21,8 +21,9 @@
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
     border-radius: 8px;
 }
-.wp-block-getwid-images-slider.is-style-brasiliana-rounded wp-block-getwid-images-slider__item {
+.wp-block-getwid-images-slider.is-style-brasiliana-rounded .wp-block-getwid-images-slider__item {
     border-radius: 8px;
+    overflow: hidden;
 }
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-rounded .collection-list-item img {
