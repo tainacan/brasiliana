@@ -214,6 +214,15 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-getwid-post-carousel .slick-next::before {
     color: var(--paletteColor1, #642d39);
 }
+.wp-block-getwid-images-slider.is-style-brasiliana-rounded .wp-block-getwid-images-slider__item {
+    max-width: 256px;
+}
+.wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-prev {
+    left: -22px;
+}
+.wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-next {
+    right: -48px;
+}
 
 /* New styles for buttons in dark backgrounds */
 /* Fill button to be used on dark backgrounds */
