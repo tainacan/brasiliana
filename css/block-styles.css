@@ -218,10 +218,19 @@ div.is-style-outline > .wp-block-button__link {
     max-width: 256px;
 }
 .wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-prev {
-    left: -22px;
+    left: -32px;
 }
 .wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-next {
     right: -48px;
+}
+
+@media screen and (max-width: 600px ) {
+    .wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-prev {
+        left: -22px;
+    }
+    .wp-block-getwid-images-slider.is-style-brasiliana-rounded.alignfull.has-arrows-outside .slick-next {
+        right: -38px;
+    }
 }
 
 /* New styles for buttons in dark backgrounds */
