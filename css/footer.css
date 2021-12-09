@@ -21,6 +21,28 @@ footer .widget_search button.search-submit svg {
     --icon-size: 20px;
 }
 
+/* Tainacan Search bar has a special style on footer */
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block,
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block:hover,
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block:focus,
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block:active {
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: 2px solid var(--linkInitialColor) !important;
+    border-right: none !important;
+    --tainacan-block-primary: var(--linkInitialColor);
+}
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block input#tainacan-search-bar-block_input {
+    background: transparent;
+    color: var(--linkInitialColor);
+    border: none;
+}
+footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block button {
+    background: transparent;
+    color: var(--linkInitialColor);
+    border: none;
+}
+
 /* Bellow search bar, we should have two columns for the menu */
 footer .widget_search+.widget_nav_menu .widget-menu {
     -moz-column-count: 2;
