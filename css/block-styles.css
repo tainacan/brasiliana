@@ -51,12 +51,15 @@
 }
 
 /* Special style cirle blocks*/
+.wp-block-getwid-images-slider.is-style-brasiliana-circle .wp-block-getwid-images-slider__item,
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item img {
     border-radius: 100%;
     -webkit-filter: brightness(0.8);
     filter: brightness(0.8);
+    overflow: hidden;
 }
+.wp-block-getwid-images-slider.is-style-brasiliana-circle .wp-block-getwid-images-slider__item,
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item {
     text-align: center;
@@ -143,7 +146,7 @@ div.is-style-outline > .wp-block-button__link {
 }
 
 /* Cover images carousel with figcaption layer to darken it */
-.wp-block-getwid-images-slider.has-captions .wp-block-getwid-images-slider__item figcaption {
+.wp-block-getwid-images-slider:not(.is-style-brasiliana-circle).has-captions .wp-block-getwid-images-slider__item figcaption {
     display: flex !important;
     align-items: flex-end;
     font-size: 22px;

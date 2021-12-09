@@ -32,6 +32,16 @@ if ( function_exists('register_block_style') ) {
         );
 
         register_block_style(
+            'getwid/images-slider',
+            array(
+                'name'  => 'brasiliana-circle',
+                'label' =>  __('Círculo Brasiliana', 'brasiliana'),
+                'isDefault' => false,
+            )
+        );
+
+
+        register_block_style(
             'core/cover',
             array(
                 'name'  => 'brasiliana-rounded',
