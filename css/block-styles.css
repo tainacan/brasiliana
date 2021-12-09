@@ -51,7 +51,7 @@
 }
 
 /* Special style cirle blocks*/
-.wp-block-getwid-images-slider.is-style-brasiliana-circle .wp-block-getwid-images-slider__item,
+.wp-block-getwid-images-slider.is-style-brasiliana-circle .wp-block-getwid-images-slider__item img,
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-circle .term-list-item img,
 .wp-block-tainacan-carousel-collections-list.is-style-brasiliana-circle .collection-list-item img {
     border-radius: 100%;
@@ -155,6 +155,15 @@ div.is-style-outline > .wp-block-button__link {
     background-image: none;
     padding: 20px;
     height: 100%;
+}
+.wp-block-getwid-images-slider.is-style-brasiliana-circle.has-captions .wp-block-getwid-images-slider__item figcaption {
+    align-items: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: -3.25rem;
+}
+.wp-block-getwid-images-slider.is-style-brasiliana-circle.has-captions .slick-list {
+    padding-bottom: 3rem;
 }
 
 /* The posts and images gap should have more space to the arrows */
