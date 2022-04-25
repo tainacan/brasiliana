@@ -70,6 +70,8 @@
 .wp-block-getwid-section .wp-block-group__inner-container svg {
     margin-bottom: -4rem !important;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Inner content of cover blocks should be 100% even with the positioning set to custom */
