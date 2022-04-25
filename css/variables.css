@@ -21,7 +21,7 @@
     --palette-color-20: #f5f5f5;
     --palette-color-21: #dddddd;
     --palette-color-22: #666666;
-    
+    --container-max-width: var(--normal-container-max-width, 1290px);
 }
 
 .has-palette-color-9-color {
