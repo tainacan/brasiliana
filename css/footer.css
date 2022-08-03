@@ -65,7 +65,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
 
 /* NewsLetter Subscribe area */
 .ct-newsletter-subscribe-widget {
-    background-color: var(--palette-color-10, #accfd8);
+    background-color: var(--palette-color-10, #98D4FF);
     border-radius: 8px;
     padding: 48px 100px;
 }
@@ -75,7 +75,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
     font-weight: bold;
     font-size: 48px;
     text-transform: uppercase;
-    color: var(--paletteColor1, #642d39);
+    color: var(--paletteColor1, #004494);
     margin-bottom: 0;
 }
 .ct-newsletter-subscribe-widget .ct-widget-inner {
@@ -113,7 +113,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
 }
 .ct-newsletter-subscribe-widget input:hover,
 .ct-newsletter-subscribe-widget input:focus {
-    border: 1px solid var(--paletteColor1, #642d39);
+    border: 1px solid var(--paletteColor1, #004494);
 }
 
 .ct-newsletter-subscribe-widget button {

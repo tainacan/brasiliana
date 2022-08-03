@@ -4,14 +4,14 @@
 function brasiliana_filter_palette( $args ) {
 	return array(
 		array(
-			'name' => 'Açaí Brasiliana',
+			'name' => 'Azul Escuro Brasiliana',
 			'slug' => 'palette-color-1',
-			'color' => 'var(--paletteColor1, #642d39)'
+			'color' => 'var(--paletteColor1, #004494)'
 		),
 		array(
-			'name' => 'Açaí Brasiliana Escuro',
+			'name' => 'Azul Brasiliana',
 			'slug' => 'palette-color-2',
-			'color' => 'var(--paletteColor2, #30020C)'
+			'color' => 'var(--paletteColor2, #0062A9)'
 		),
 		array(
 			'name' => 'Cor de Texto Brasiliana',
@@ -21,7 +21,7 @@ function brasiliana_filter_palette( $args ) {
 		array(
 			'name' => 'Cor de Título Brasiliana',
 			'slug' => 'palette-color-4',
-			'color' => 'var(--paletteColor4, #2e1e1e)'
+			'color' => 'var(--paletteColor4, #201e2e)'
 		), 
 		array(
 			'name' => 'Cor de Borda Brasiliana',
@@ -44,54 +44,49 @@ function brasiliana_filter_palette( $args ) {
 			'color' => 'var(--paletteColor8, #f5f4ed)'
 		),
 		array(
-			'name' => 'Palha Brasiliana',
+			'name' => 'Amarelo claro Brasiliana',
 			'slug' => 'palette-color-9',
-			'color' => 'var(--paletteColor9, #f95e05)'
+			'color' => 'var(--paletteColor9, #FFE899)'
 		),
 		array(
-			'name' => 'Céu Brasiliana',
+			'name' => 'Azul claro Brasiliana',
 			'slug' => 'palette-color-10',
-			'color' => 'var(--paletteColor10, #accfd8)'
+			'color' => 'var(--paletteColor10, #98D4FF)'
 		),
 		array(
-			'name' => 'Abacate Brasiliana',
+			'name' => 'Amarelo Brasiliana',
 			'slug' => 'palette-color-11',
-			'color' => 'var(--paletteColor11, #849965)'
+			'color' => 'var(--paletteColor11, #FDC400)'
 		),
 		array(
-			'name' => 'Terra Brasiliana',
+			'name' => 'Amarelo escuro Brasiliana',
 			'slug' => 'palette-color-12',
-			'color' => 'var(--paletteColor12, #604d43)'
+			'color' => 'var(--paletteColor12, #B28A00)'
 		),
 		array(
-			'name' => 'Sangue Brasiliana',
+			'name' => 'Vermelho Brasiliana',
 			'slug' => 'palette-color-13',
-			'color' => 'var(--paletteColor13, #cd403c)'
+			'color' => 'var(--paletteColor13, #CC252F)'
 		),
 		array(
-			'name' => 'Açaí Brasiliana claro',
+			'name' => 'Vermelho claro Brasiliana',
 			'slug' => 'palette-color-14',
-			'color' => 'var(--paletteColor14, #e5acb9)'
+			'color' => 'var(--paletteColor14, #FFCCCF)'
 		),
 		array(
-			'name' => 'Palha Brasiliana mais clara',
-			'slug' => 'palette-color-15',
-			'color' => 'var(--paletteColor15, #ffebbd)'
-		),
-		array(
-			'name' => 'Palha Brasiliana mais escura',
+			'name' => 'Escuro escuro Brasiliana',
 			'slug' => 'palette-color-16',
-			'color' => 'var(--paletteColor16, #806a38)'
+			'color' => 'var(--paletteColor16, #800008)'
 		),
 		array(
-			'name' => 'Céu Brasiliana mais claro',
+			'name' => 'Cor de Erro Brasiliana',
 			'slug' => 'palette-color-17',
-			'color' => 'var(--paletteColor17, #DAEDF2)'
+			'color' => 'var(--paletteColor17, #CD403C)'
 		),
 		array(
-			'name' => 'Céu Brasiliana mais escuro',
+			'name' => 'Cor de Acerto Brasiliana',
 			'slug' => 'palette-color-18',
-			'color' => 'var(--paletteColor14, #54818C)'
+			'color' => 'var(--paletteColor18, #849965)'
 		),
 		array(
 			'name' => 'Escuro Brasiliana',

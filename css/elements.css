@@ -69,7 +69,7 @@
 }
 
 .brasiliana-header-elements .brasiliana-header-button {
-    border: 1px solid var(--palette-color-10, #accfd8);
+    border: 1px solid var(--palette-color-10, #98D4FF);
     background-color: transparent;
     border-radius: 100%;
     padding: 0.5rem 1.2rem 0.5rem 0.8rem;
@@ -94,7 +94,7 @@
 }
 .brasiliana-header-elements .brasiliana-header-button::hover,
 .brasiliana-header-elements .brasiliana-header-button::focus {
-    border: 1px solid var(--palette-color-10, #accfd8);
+    border: 1px solid var(--palette-color-10, #98D4FF);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon {
     position: relative;
@@ -102,22 +102,22 @@
 .brasiliana-header-elements .brasiliana-header-button .icon i::before {
     font-size: 1.5rem;
     line-height: 1rem;
-    color: var(--paletteColor1, #642d39);
+    color: var(--paletteColor1, #004494);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i::after {
-    background-color: var(--paletteColor1, #642d39);
+    background-color: var(--paletteColor1, #004494);
 }
 .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
-    color: var(--paletteColor2, #30020C);
+    color: var(--paletteColor2, #0062A9);
 }
 .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
-    background-color: var(--paletteColor2, #30020C);
+    background-color: var(--paletteColor2, #0062A9);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
-    color: var(--palette-color14, #e5acb9);
+    color: var(--palette-color14, #FFCCCF);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
-    background-color: var(--palette-color14, #e5acb9);
+    background-color: var(--palette-color14, #FFCCCF);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i.dashicons {
     line-height: 1.875rem;
@@ -135,19 +135,19 @@ header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
-    color: var(--palette-color-10, #accfd8);
+    color: var(--palette-color-10, #98D4FF);
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
-    background-color: var(--palette-color-10, #accfd8);
+    background-color: var(--palette-color-10, #98D4FF);
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
-    color: var(--palette-color14, #e5acb9);
+    color: var(--palette-color14, #FFCCCF);
 }
 body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
-    background-color: var(--palette-color14, #e5acb9);
+    background-color: var(--palette-color14, #FFCCCF);
 }
 
 /* Brasiliana Social Icons share list */
@@ -171,12 +171,12 @@ header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .b
 }
 .brasiliana-social-icons [data-icons-type] > * {
     padding: 12px;
-    border: 1px solid var(--palette-color-10, #accfd8);
+    border: 1px solid var(--palette-color-10, #98D4FF);
     background-color: white;
     display: block;
     border-radius: 100%;
     margin-bottom: 0px;
-    --icon-color: var(--paletteColor1, #642d39);
+    --icon-color: var(--paletteColor1, #004494);
     transition: margin 0.3s ease;
 }
 .brasiliana-social-icons.is-list-open [data-icons-type] > * {

@@ -1,6 +1,6 @@
 /* Item list pages */
 .tainacan-collection-header {
-    background-color: #73424D;
+    background-color: #0062A9;
     position: relative;
     margin-bottom: 3rem;
 }
@@ -23,7 +23,7 @@
    top: calc(-1 * var(--content-vertical-spacing) + 6px);
 }
 .tainacan-collection-header .page-title {
-    color: var(--palette-color-9, #ecd297);
+    color: var(--palette-color-9, #FFE899);
     font-size: 48px;
     text-transform: uppercase;
 }
@@ -46,7 +46,7 @@
     margin-right: 30px;
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-title {
-    color: var(--paletteColor1, #642d39) !important; 
+    color: var(--paletteColor1, #004494) !important; 
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-description {
     color: #040203 !important;
@@ -62,7 +62,7 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
 .theme-items-list {
     --borderRadius: 8px;
     --tainacan-item-heading-background-color: var(--paletteColor8, #f5f4ed);
-    --tainacan-item-heading-hover-background-color: var(--palette-color-9, #ecd297);
+    --tainacan-item-heading-hover-background-color: var(--palette-color-9, #FFE899);
 }
 .theme-items-list:not(.is-fullscreen) {
     top: 0rem !important;
@@ -89,7 +89,7 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
 .theme-items-list .filter-item-forms .collapse-trigger .collapse-label {
     font-weight: bold;
     font-size: 1rem;
-    color: var(--tainacan-secondary, #642d39);
+    color: var(--tainacan-secondary, #004494);
 }
 .tainacan-modal .filter-item-forms .collapse-trigger .icon,
 .theme-items-list .filter-item-forms .collapse-trigger .icon,
@@ -131,12 +131,12 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
 .theme-items-list .tainacan-form .collapse-all,
 .tainacan-modal .tainacan-form .collapse-all .icon .tainacan-icon::before,
 .theme-items-list .tainacan-form .collapse-all  .icon .tainacan-icon::before {
-    color: var(--palette-color-13, #cd403c) !important;
+    color: var(--palette-color-13, #CC252F) !important;
 }
 .filter-tags-list #button-clear-all {
     position: absolute;
     right: 0;
-    border: 1px solid var(--palette-color-13, #cd403c);
+    border: 1px solid var(--palette-color-13, #CC252F);
     border-radius: 8px;
     padding: 5px 16px;
     margin-top: -1rem;
