@@ -32,6 +32,11 @@
     visibility: hidden;
 }
 
+/* Makes backround image on header multiply */
+.ct-header [data-row*="middle"] {
+    background-blend-mode: multiply;
+}
+
 /* Puts the breadcrumb on top of the page */
 .hero-section {
     position: relative;
