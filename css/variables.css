@@ -24,99 +24,99 @@
 }
 
 .has-palette-color-9-color {
-    color: var(--palette-color-9, #FFE899);
+    color: var(--palette-color-9, #FFE899) !important;
 }
 .has-palette-color-9-background-color {
-    background-color: var(--palette-color-9, #FFE899);
+    background-color: var(--palette-color-9, #FFE899) !important;
 }
 
 .has-palette-color-10-color {
-    color: var(--palette-color-10, #98D4FF);
+    color: var(--palette-color-10, #98D4FF) !important;
 }
 .has-palette-color-10-background-color {
-    background-color: var(--palette-color-10, #98D4FF);
+    background-color: var(--palette-color-10, #98D4FF) !important;
 }
 
 .has-palette-color-11-color {
-    color: var(--palette-color-11, #FDC400);
+    color: var(--palette-color-11, #FDC400) !important;
 }
 .has-palette-color-11-background-color {
-    background-color: var(--palette-color-11, #FDC400);
+    background-color: var(--palette-color-11, #FDC400) !important;
 }
 
 .has-palette-color-12-color {
-    color: var(--palette-color-12, #B28A00);
+    color: var(--palette-color-12, #B28A00) !important;
 }
 .has-palette-color-12-background-color {
-    background-color: var(--palette-color-12, #B28A00);
+    background-color: var(--palette-color-12, #B28A00) !important;
 }
 
 .has-palette-color-13-color {
-    color: var(--palette-color-13, #CC252F);
+    color: var(--palette-color-13, #CC252F) !important;
 }
 .has-palette-color-13-background-color {
-    background-color: var(--palette-color-13, #CC252F);
+    background-color: var(--palette-color-13, #CC252F) !important;
 }
 
 .has-palette-color-14-color {
-    color: var(--palette-color-14, #FFCCCF);
+    color: var(--palette-color-14, #FFCCCF) !important;
 }
 .has-palette-color-14-background-color {
-    background-color: var(--palette-color-14, #FFCCCF);
+    background-color: var(--palette-color-14, #FFCCCF) !important;
 }
 
 .has-palette-color-9-color {
-    color: var(--palette-color-9, #FFE899);
+    color: var(--palette-color-9, #FFE899) !important;
 }
 .has-palette-color-9-background-color {
-    background-color: var(--palette-color-9, #FFE899);
+    background-color: var(--palette-color-9, #FFE899) !important;
 }
 
 .has-palette-color-16-color {
-    color: var(--palette-color-16, #800008);
+    color: var(--palette-color-16, #800008) !important;
 }
 .has-palette-color-16-background-color {
-    background-color: var(--palette-color-16, #800008);
+    background-color: var(--palette-color-16, #800008) !important;
 }
 
 .has-palette-color-17-color {
-    color: var(--palette-color-17, #CD403C);
+    color: var(--palette-color-17, #CD403C) !important;
 }
 .has-palette-color-17-background-color {
-    background-color: var(--palette-color-17, #CD403C);
+    background-color: var(--palette-color-17, #CD403C) !important;
 }
 
 .has-palette-color-18-color {
-    color: var(--palette-color-18, );
+    color: var(--palette-color-18, ) !important;
 }
 .has-palette-color-18-background-color {
-    background-color: var(--palette-color-18, #849965);
+    background-color: var(--palette-color-18, #849965) !important;
 }
 
 .has-palette-color-19-color {
-    color: var(--palette-color-19, #111111);
+    color: var(--palette-color-19, #111111) !important;
 }
 .has-palette-color-19-background-color {
-    background-color: var(--palette-color-19, #111111);
+    background-color: var(--palette-color-19, #111111) !important;
 }
 
 .has-palette-color-20-color {
-    color: var(--palette-color-20, #f5f5f5);
+    color: var(--palette-color-20, #f5f5f5) !important;
 }
 .has-palette-color-20-background-color {
-    background-color: var(--palette-color-20, #f5f5f5);
+    background-color: var(--palette-color-20, #f5f5f5) !important;
 }
 
 .has-palette-color-21-color {
-    color: var(--palette-color-21, #dddddd);
+    color: var(--palette-color-21, #dddddd) !important;
 }
 .has-palette-color-21-background-color {
-    background-color: var(--palette-color-21, #dddddd);
+    background-color: var(--palette-color-21, #dddddd) !important;
 }
 
 .has-palette-color-22-color {
-    color: var(--palette-color-22, #666666);
+    color: var(--palette-color-22, #666666) !important;
 }
 .has-palette-color-22-background-color {
-    background-color: var(--palette-color-22, #666666);
+    background-color: var(--palette-color-22, #666666) !important;
 }
