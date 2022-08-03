@@ -13,6 +13,7 @@
 .is-style-brasiliana-rounded,
 .wp-block-image.is-style-brasiliana-rounded img,
 .wp-block-cover.is-style-brasiliana-rounded::before,
+.wp-block-cover.is-style-brasiliana-rounded .wp-block-cover__background,
 .wp-block-cover.is-style-brasiliana-rounded img.wp-block-cover__image-background,
 .wp-block-cover.is-style-brasiliana-rounded video.wp-block-cover__video-background,
 .wp-block-tainacan-carousel-terms-list.is-style-brasiliana-rounded .term-list-item,
@@ -85,11 +86,13 @@
     width: 100% !important;
 }
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns {
-    margin: 0;
-    width: 100%;
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 10px;
+    gap: 0.75em;
 }
-.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column:not(:first-child) {
-    margin-left: 0.75em;
+.wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column:first-child {
+    flex-shrink: 0;
 }
 .wp-block-columns.brasiliana-museu-cards .wp-block-cover__inner-container .wp-block-columns>.wp-block-column p {
     margin-bottom: 0;
