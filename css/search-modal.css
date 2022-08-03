@@ -10,7 +10,7 @@ body[data-panel="in"] .ct-header-search.ct-toggle {
     max-width: var(--container-max-width);
     padding-left: 0;
     padding-right: 7px;
-    padding-top: 1rem;
+    padding-top: 0.875rem;
 }
 #search-modal .search-form {
     margin-bottom: 0;
@@ -91,14 +91,14 @@ body[data-panel="in"] .ct-header-search.ct-toggle {
     column-span: all;
 }
 #search-modal input {
-    --form-font-size: 1.125rem;
-    --form-field-height: 56px;
-    --form-field-border-width: 0 0 4px 0;
-    --form-field-border-initial-color: var(--palette-color-11, #FDC400);
+    --form-font-size: 1.125rem !important;
+    --form-field-height: 56px !important;
+    --form-field-border-width: 0 0 4px 0 !important;
+    --form-field-border-initial-color: var(--palette-color-11, #FDC400) !important;
 }
 #search-modal input+button {
-    --search-button-size: 70px;
-    top: -8px;
+    --search-button-size: 70px !important;
+    top: -8px !important;
 }
 
 #search-modal [class*="ct-toggle-close"]:not([data-type="type-1"]) {
