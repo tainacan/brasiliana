@@ -87,12 +87,16 @@
 #search-modal input {
     --form-font-size: 1.125rem;
     --form-field-height: 56px;
-    --form-field-border-width: 0 0 3px 0;
-    --form-field-border-initial-color: var(--palette-color-9, #FFE899);
+    --form-field-border-width: 0 0 4px 0;
+    --form-field-border-initial-color: var(--palette-color-11, #FDC400);
 }
 #search-modal input+button {
     --search-button-size: 70px;
     top: -8px;
+}
+
+#search-modal [class*="ct-toggle-close"]:not([data-type="type-1"]) {
+    --toggle-button-radius: 40px;
 }
 
 @media screen and (max-width: 1440px) {

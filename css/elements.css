@@ -35,6 +35,7 @@
 /* Makes backround image on header multiply */
 .ct-header [data-row*="middle"] {
     background-blend-mode: multiply;
+    --menu-indicator-height: 4px;
 }
 
 /* Puts the breadcrumb on top of the page */
@@ -114,10 +115,10 @@
     background-color: var(--paletteColor2, #0062A9);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
-    color: var(--palette-color14, #FFCCCF);
+    color: var(--paletteColor2, #0062A9);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
-    background-color: var(--palette-color14, #FFCCCF);
+    background-color: var(--paletteColor2, #0062A9);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i.dashicons {
     line-height: 1.875rem;
