@@ -1,3 +1,9 @@
+body[data-panel="in"] .ct-header-search.ct-toggle {
+    display: none;
+}
+#search-modal {
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 60px,var(--paletteColor2, #0062A9) 60px);
+}
 #search-modal .ct-panel-actions {
     margin: 0 auto;
     width: var(--container-width);
