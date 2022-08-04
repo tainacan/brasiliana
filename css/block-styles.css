@@ -310,3 +310,35 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-button__link.is-style-outline:hover {
     background-color: transparent !important;
 }
+
+/* Subscription form */
+.wp-block-tnp-minimal {
+    flex-grow: 1;
+    max-width: 415px;
+}
+.wp-block-tnp-minimal p:empty {
+    display: none;
+}
+.wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-email {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    padding-left: 22px;
+    height: 49px;
+}
+.wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    height: 49px;
+    padding: 14px 32px;
+    background-color: var(--palette-color-11, #FDC400);
+    color: var(--palette-color-1, #004494);
+}
+.wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:hover {
+    background-color: var(--palette-color-9, #FFE899);
+}
+.wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:focus {
+    background-color: var(--palette-color-9, #FFE899);
+    color: var(--palette-color-2, #0062A9);
+}
