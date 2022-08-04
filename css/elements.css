@@ -189,6 +189,11 @@ body.single-post .hero-section .page-description {
     max-width: 624px;
 }
 
+/* Footer logo inside text */
+footer h1>img {
+    margin-top: -12px;
+}
+
 /* Tweaks for better responsivenes */
 @media screen and (max-width: 767px) {
     [data-header*="type-1"] .ct-header [data-id="logo"] .site-title {

@@ -274,7 +274,7 @@ div.is-style-outline > .wp-block-button__link {
 /* Outline button to be used on dark backgrounds */
 .is-style-brasiliana-outline-dark > .wp-block-button__link,
 .wp-block-button__link.is-style-brasiliana-outline-dark {
-    border-width: 2px !important;
+    border-width: 1px !important;
     border-style: solid !important;
 }
 .wp-block-button.is-style-brasiliana-outline-dark:not(.has-background),
@@ -332,11 +332,12 @@ div.is-style-outline > .wp-block-button__link {
     border: none;
     height: 49px;
     padding: 14px 32px;
+    font-size: 16px;
     background-color: var(--palette-color-11, #FDC400);
     color: var(--palette-color-1, #004494);
 }
 .wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:hover {
-    background-color: var(--palette-color-9, #FFE899);
+    color: var(--palette-color-2, #0062A9);
 }
 .wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:focus {
     background-color: var(--palette-color-9, #FFE899);
