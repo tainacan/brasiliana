@@ -220,6 +220,7 @@ footer h1>img {
     }
     .wp-block-columns.brasiliana-museu-cards>.wp-block-column>.wp-block-cover>.wp-block-cover__inner-container>.wp-block-columns>.wp-block-column:first-child {
         flex-basis: 42px !important;
+        max-width: 42px;
     }
     .wp-block-columns.brasiliana-museu-cards>.wp-block-column>.wp-block-cover>.wp-block-cover__inner-container>.wp-block-columns>.wp-block-column:last-child {
         flex-basis: 100% !important;
