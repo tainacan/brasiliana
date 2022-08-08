@@ -39,6 +39,9 @@ body[data-panel="in"] .ct-header-search.ct-toggle {
     cursor: pointer;
     outline: 0; 
 }
+#search-modal .brasiliana-search-modal-facets-list__header details[open=""] summary {
+    font-weight: bold;
+}
 #search-modal .brasiliana-search-modal-facets-list__header details[open=""] summary svg {
     transform: rotateX(180deg);
 }
