@@ -1,29 +1,14 @@
 <?php
 
+add_action("wp_ajax_brasiliana_add_facets_to_search_modal", "brasiliana_add_facets_to_search_modal");
+add_action("wp_ajax_nopriv_brasiliana_add_facets_to_search_modal", "brasiliana_add_facets_to_search_modal");
 
 /**
  * Updates search modal with a list of facets
  */
 function brasiliana_add_facets_to_search_modal($form, $args) {
-    $brasiliana_collection_id = null;
-
-    if ( $args && isset($args['ct_post_type']) ) {
-        foreach( $args['ct_post_type'] as $post_type ) {
-            if ( substr( $post_type, 0, 7 ) === "tnc_col" ) {
-                $brasiliana_collection_id = str_replace('tnc_col_', '', $post_type);
-                $brasiliana_collection_id = str_replace('_item', '', $brasiliana_collection_id);
-                break;
-            }
-        };
-    }
-    //$brasiliana_collection_id = '130957';
-    if (!$brasiliana_collection_id)
-        return;
-
     
-    $collection = new \Tainacan\Entities\Collection($brasiliana_collection_id);
-    
-    $metadatum_repository = \tainacan_metadata();
+    $metadatum_repository = \Tainacan\Repositories\Metadata::get_instance();
     $args = [
 		'meta_query' => [
 			[
@@ -32,20 +17,18 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
 			]
 		]
 	];
-    $metadata = $metadatum_repository->fetch_by_collection( $collection, $args );
+    $metadata = $metadatum_repository->fetch( $args, 'OBJECT' );
 
     if ( !$metadata || !count($metadata) )
         return;
 
     ob_start();
-    echo $form;
     ?>
         <div class="brasiliana-search-modal-facets-list">
             <div class="brasiliana-search-modal-facets-list__header">
                 <?php
                 foreach($metadata as $metadatum) {
                     $args = [
-                        'collection_id' => $brasiliana_collection_id,
                         'number' => 12,
                         'count_items' => true
                     ];
@@ -97,6 +80,7 @@ function brasiliana_add_facets_to_search_modal($form, $args) {
         </div>
 
     <?php
-    return ob_get_clean();
+
+    echo ob_get_clean();
+    wp_die();
 }
-add_filter( 'get_search_form', 'brasiliana_add_facets_to_search_modal', 0, 2);
