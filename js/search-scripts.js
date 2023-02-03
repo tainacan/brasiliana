@@ -89,4 +89,5 @@ function addTaxonomiesToSearchModal() {
 
 performWhenDocumentIsLoaded(() => {
     syncFacetsBlockWithSearchBar();
+    addTaxonomiesToSearchModal();
 });
