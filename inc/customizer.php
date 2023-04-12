@@ -6,12 +6,12 @@ function brasiliana_filter_palette( $args ) {
 		array(
 			'name' => 'Azul Escuro Brasiliana',
 			'slug' => 'palette-color-1',
-			'color' => 'var(--paletteColor1, #004494)'
+			'color' => 'var(--paletteColor1, #642D39)'
 		),
 		array(
 			'name' => 'Azul Brasiliana',
 			'slug' => 'palette-color-2',
-			'color' => 'var(--paletteColor2, #0062A9)'
+			'color' => 'var(--paletteColor2, #864453)'
 		),
 		array(
 			'name' => 'Cor de Texto Brasiliana',
@@ -56,7 +56,7 @@ function brasiliana_filter_palette( $args ) {
 		array(
 			'name' => 'Amarelo Brasiliana',
 			'slug' => 'palette-color-11',
-			'color' => 'var(--paletteColor11, #FDC400)'
+			'color' => 'var(--paletteColor11, #FFEBBD)'
 		),
 		array(
 			'name' => 'Amarelo escuro Brasiliana',
@@ -66,7 +66,7 @@ function brasiliana_filter_palette( $args ) {
 		array(
 			'name' => 'Vermelho Brasiliana',
 			'slug' => 'palette-color-13',
-			'color' => 'var(--paletteColor13, #CC252F)'
+			'color' => 'var(--paletteColor13, #CD403C)'
 		),
 		array(
 			'name' => 'Vermelho claro Brasiliana',

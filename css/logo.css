@@ -127,6 +127,12 @@
     }
 }
 
+
+svg.acervo-logo-expansao {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 svg.acervo-logo-expansao:hover,
 svg.acervo-logo-expansao:hover path,
 svg.acervo-logo-completo:hover,

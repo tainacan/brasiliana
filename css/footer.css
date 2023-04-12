@@ -75,7 +75,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
     font-weight: bold;
     font-size: 48px;
     text-transform: uppercase;
-    color: var(--paletteColor1, #004494);
+    color: var(--paletteColor1, #642D39);
     margin-bottom: 0;
 }
 .ct-newsletter-subscribe-widget .ct-widget-inner {
@@ -113,7 +113,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
 }
 .ct-newsletter-subscribe-widget input:hover,
 .ct-newsletter-subscribe-widget input:focus {
-    border: 1px solid var(--paletteColor1, #004494);
+    border: 1px solid var(--paletteColor1, #642D39);
 }
 
 .ct-newsletter-subscribe-widget button {

@@ -1,6 +1,6 @@
 /* Item list pages */
 .tainacan-collection-header {
-    background-color: #0062A9;
+    background-color: #864453;
     position: relative;
     margin-bottom: 3rem;
 }
@@ -46,7 +46,7 @@
     margin-right: 30px;
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-title {
-    color: var(--paletteColor1, #004494) !important; 
+    color: var(--paletteColor1, #642D39) !important; 
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .page-description {
     color: #040203 !important;
@@ -89,7 +89,7 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
 .theme-items-list .filter-item-forms .collapse-trigger .collapse-label {
     font-weight: bold;
     font-size: 1rem;
-    color: var(--tainacan-secondary, #004494);
+    color: var(--tainacan-secondary, #642D39);
 }
 .tainacan-modal .filter-item-forms .collapse-trigger .icon,
 .theme-items-list .filter-item-forms .collapse-trigger .icon,
@@ -131,12 +131,12 @@ body.tax-tnc_tax_34 .tainacan-collection-header.tainacan-collection-header--term
 .theme-items-list .tainacan-form .collapse-all,
 .tainacan-modal .tainacan-form .collapse-all .icon .tainacan-icon::before,
 .theme-items-list .tainacan-form .collapse-all  .icon .tainacan-icon::before {
-    color: var(--palette-color-13, #CC252F) !important;
+    color: var(--palette-color-13, #CD403C) !important;
 }
 .filter-tags-list #button-clear-all {
     position: absolute;
     right: 0;
-    border: 1px solid var(--palette-color-13, #CC252F);
+    border: 1px solid var(--palette-color-13, #CD403C);
     border-radius: 8px;
     padding: 5px 16px;
     margin-top: -1rem;

@@ -39,7 +39,7 @@
 .wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a > span,
 .wp-block-tainacan-carousel-collections-list .tainacan-carousel .swiper-container a:hover > span {
     font-size: 22px;
-    color: var(--paletteColor1, #004494);
+    color: var(--paletteColor1, #642D39);
 }
 
 /* Rounded Terms carousel has label inside the picture */
@@ -133,7 +133,7 @@ div.is-style-outline > .wp-block-button__link {
     background-color: white;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    border: 1px solid var(--paletteColor1, #004494);
+    border: 1px solid var(--paletteColor1, #642D39);
     padding: 0 0 0 2.25em;
     min-height: 48px;
     margin-right: -3px;
@@ -145,7 +145,7 @@ div.is-style-outline > .wp-block-button__link {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border: none;
-    background-color: var(--paletteColor1, #004494);
+    background-color: var(--paletteColor1, #642D39);
     color: white;
     padding: .125em 5.9375em;
 }
@@ -192,7 +192,7 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list ul.facets-list.facets-layout-list li.facet-list-item .facet-label-and-count span:first-child,
 .wp-block-getwid-section.brasiliana-facets-section .wp-block-tainacan-facets-list ul.facets-list-edit.facets-layout-list li.facet-list-item .facet-label-and-count span:first-child {
     font-weight: bold;
-    color: var(--paletteColor1, #004494);
+    color: var(--paletteColor1, #642D39);
 }
 
 /* Brasiliana Museo Pattern */
@@ -229,7 +229,7 @@ div.is-style-outline > .wp-block-button__link {
 .wp-block-getwid-post-slider .slick-next::before,
 .wp-block-getwid-post-carousel .slick-prev::before,
 .wp-block-getwid-post-carousel .slick-next::before {
-    color: var(--paletteColor1, #004494);
+    color: var(--paletteColor1, #642D39);
 }
 .wp-block-getwid-images-slider.is-style-brasiliana-rounded .wp-block-getwid-images-slider__item {
     max-width: 256px;
@@ -257,18 +257,18 @@ div.is-style-outline > .wp-block-button__link {
 }
 .wp-block-button.is-style-brasiliana-fill-dark:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-fill-dark .wp-block-button__link:not(.has-text-color) {
-    color: var(--palette-color-1, #004494);
+    color: var(--palette-color-1, #642D39);
 }
 .wp-block-button.is-style-brasiliana-fill-dark:hover:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-fill-dark:hover .wp-block-button__link:not(.has-text-color) {
-    color: var(--palette-color-2, #0062A9);
+    color: var(--palette-color-2, #864453);
 }
 .wp-block-button.is-style-brasiliana-fill-dark:focus .wp-block-button__link:not(.has-background)  {
-    background-color: var(--palette-color-1, #004494);
+    background-color: var(--palette-color-1, #642D39);
 }
 .wp-block-button.is-style-brasiliana-fill-dark:focus:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-fill-dark:focus .wp-block-button__link:not(.has-text-color){
-    color: var(--palette-color-11, #FDC400);
+    color: var(--palette-color-11, #FFEBBD);
 }
 
 /* Outline button to be used on dark backgrounds */
@@ -333,13 +333,12 @@ div.is-style-outline > .wp-block-button__link {
     height: 49px;
     padding: 14px 32px;
     font-size: 16px;
-    background-color: var(--palette-color-11, #FDC400);
-    color: var(--palette-color-1, #004494);
+    background-color: var(--palette-color-1, #642D39);
+    color: var(--palette-color-11, #FFEBBD);
 }
 .wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:hover {
-    color: var(--palette-color-2, #0062A9);
+    background-color: var(--palette-color-2, #864453);
 }
 .wp-block-tnp-minimal .tnp-subscription-minimal form input.tnp-submit:focus {
-    background-color: var(--palette-color-9, #FFE899);
-    color: var(--palette-color-2, #0062A9);
+    background-color: var(--palette-color-2, #864453);
 }

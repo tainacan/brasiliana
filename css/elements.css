@@ -103,22 +103,22 @@
 .brasiliana-header-elements .brasiliana-header-button .icon i::before {
     font-size: 1.5rem;
     line-height: 1rem;
-    color: var(--paletteColor1, #004494);
+    color: var(--paletteColor1, #642D39);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i::after {
-    background-color: var(--paletteColor1, #004494);
+    background-color: var(--paletteColor1, #642D39);
 }
 .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
-    color: var(--paletteColor2, #0062A9);
+    color: var(--paletteColor2, #864453);
 }
 .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
-    background-color: var(--paletteColor2, #0062A9);
+    background-color: var(--paletteColor2, #864453);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
-    color: var(--paletteColor2, #0062A9);
+    color: var(--paletteColor2, #864453);
 }
 .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
-    background-color: var(--paletteColor2, #0062A9);
+    background-color: var(--paletteColor2, #864453);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon i.dashicons {
     line-height: 1.875rem;
@@ -177,7 +177,7 @@ header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .b
     display: block;
     border-radius: 100%;
     margin-bottom: 0px;
-    --icon-color: var(--paletteColor1, #004494);
+    --icon-color: var(--paletteColor1, #642D39);
     transition: margin 0.3s ease;
 }
 .brasiliana-social-icons.is-list-open [data-icons-type] > * {

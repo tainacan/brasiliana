@@ -6,7 +6,7 @@ add_action("wp_ajax_nopriv_brasiliana_add_facets_to_search_modal", "brasiliana_a
 /**
  * Updates search modal with a list of facets
  */
-function brasiliana_add_facets_to_search_modal($form, $args) {
+function brasiliana_add_facets_to_search_modal() {
     
     $metadatum_repository = \Tainacan\Repositories\Metadata::get_instance();
     $args = [

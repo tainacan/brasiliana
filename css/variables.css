@@ -1,6 +1,6 @@
 :root {
-    --palette-color-1: var(--paletteColor1, #004494);
-    --palette-color-2: var(--paletteColor2, #0062A9);
+    --palette-color-1: var(--paletteColor1, #642D39);
+    --palette-color-2: var(--paletteColor2, #864453);
     --palette-color-3: var(--paletteColor3, #040203);
     --palette-color-4: var(--paletteColor4, #201e2e);
     --palette-color-5: var(--paletteColor5, #c9c9c9);
@@ -9,9 +9,9 @@
     --palette-color-8: var(--paletteColor8, #f5f4ed);
     --palette-color-9: #FFE899;
     --palette-color-10: #98D4FF;
-    --palette-color-11: #FDC400;
+    --palette-color-11: #FFEBBD;
     --palette-color-12: #B28A00;
-    --palette-color-13: #CC252F;
+    --palette-color-13: #CD403C;
     --palette-color-14: #FFCCCF;
     --palette-color-16: #800008;
     --palette-color-17: #CD403C;
@@ -38,10 +38,10 @@
 }
 
 .has-palette-color-11-color {
-    color: var(--palette-color-11, #FDC400) !important;
+    color: var(--palette-color-11, #FFEBBD) !important;
 }
 .has-palette-color-11-background-color {
-    background-color: var(--palette-color-11, #FDC400) !important;
+    background-color: var(--palette-color-11, #FFEBBD) !important;
 }
 
 .has-palette-color-12-color {
@@ -52,10 +52,10 @@
 }
 
 .has-palette-color-13-color {
-    color: var(--palette-color-13, #CC252F) !important;
+    color: var(--palette-color-13, #CD403C) !important;
 }
 .has-palette-color-13-background-color {
-    background-color: var(--palette-color-13, #CC252F) !important;
+    background-color: var(--palette-color-13, #CD403C) !important;
 }
 
 .has-palette-color-14-color {
