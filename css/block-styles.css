@@ -292,8 +292,8 @@ div.is-style-outline > .wp-block-button__link {
 }
 .wp-block-button.is-style-brasiliana-outline-dark:hover:not(.has-text-color),
 .wp-block-button.is-style-brasiliana-outline-dark:hover .wp-block-button__link:not(.has-text-color) {
-    color: var(--palette-color-10, #98D4FF);
-    border-color: var(--palette-color-10, #98D4FF);
+    color: var(--palette-color-11, #FFEBBD);
+    border-color: var(--palette-color-11, #FFEBBD);
 }
 .wp-block-button.is-style-brasiliana-outline-dark:focus:not(.has-background),
 .wp-block-button.is-style-brasiliana-outline-dark:focus .wp-block-button__link:not(.has-background)  {

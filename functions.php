@@ -3,7 +3,7 @@
 Theme Name: Brasiliana
 Description: Brasiliana Museus - a child theme of Blocksy
 Author: wetah
-Version: 0.4.1
+Version: 0.4.3
 Text Domain: brasiliana
 */
 
@@ -12,7 +12,7 @@ if (! defined('WP_DEBUG')) {
 }
 
 /** Child Theme version */
-const BRASILIANA_VERSION = '0.4.1';
+const BRASILIANA_VERSION = '0.4.3';
 
 /* Enqueues necessary JS and CSS files */
 add_action( 'wp_enqueue_scripts', function () {
@@ -43,8 +43,8 @@ require get_stylesheet_directory() . '/inc/search-modal.php';
 // Registers Block styles
 require get_stylesheet_directory() . '/inc/block-styles.php';
 
-// Registers Block patterns
-require get_stylesheet_directory() . '/inc/block-patterns.php';
+// Registers Post Types
+require get_stylesheet_directory() . '/inc/post-types.php';
 
 // Adds action to inser share and back buttons on headers
 require get_stylesheet_directory() . '/inc/elements.php';

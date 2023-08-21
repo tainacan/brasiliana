@@ -65,7 +65,7 @@ footer .wp-block-tainacan-search-bar+.widget_nav_menu .widget-menu {
 
 /* NewsLetter Subscribe area */
 .ct-newsletter-subscribe-widget {
-    background-color: var(--palette-color-10, #98D4FF);
+    background-color: var(--palette-color-11, #FFEBBD);
     border-radius: 8px;
     padding: 48px 100px;
 }

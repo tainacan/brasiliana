@@ -43,6 +43,11 @@
     position: relative;
     padding-right: 64px;
 }
+@media screen and (max-width: 1000px) {
+    .hero-section {
+        padding: 12px;
+    }
+}
 .hero-section .ct-breadcrumbs {
     position: absolute;
     top: 6px;
@@ -70,7 +75,7 @@
 }
 
 .brasiliana-header-elements .brasiliana-header-button {
-    border: 1px solid var(--palette-color-10, #98D4FF);
+    border: 1px solid var(--palette-color-11, #FFEBBD);
     background-color: transparent;
     border-radius: 100%;
     padding: 0.5rem 1.2rem 0.5rem 0.8rem;
@@ -95,7 +100,7 @@
 }
 .brasiliana-header-elements .brasiliana-header-button::hover,
 .brasiliana-header-elements .brasiliana-header-button::focus {
-    border: 1px solid var(--palette-color-10, #98D4FF);
+    border: 1px solid var(--palette-color-11, #FFEBBD);
 }
 .brasiliana-header-elements .brasiliana-header-button .icon {
     position: relative;
@@ -126,27 +131,27 @@
 }
 
 /* Header buttons inside dark backrounds */
-body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::before,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button .icon i::before {
     color: var(--paletteColor7, #ffffff);
 }
-body.single-post .brasiliana-header-elements .brasiliana-header-button .icon i::after,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button .icon i::after {
     background-color: var(--paletteColor7, #ffffff);
 }
-body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:hover .icon i::before {
-    color: var(--palette-color-10, #98D4FF);
+    color: var(--palette-color-11, #FFEBBD);
 }
-body.single-post .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page)  .brasiliana-header-elements .brasiliana-header-button:hover .icon i::after {
-    background-color: var(--palette-color-10, #98D4FF);
+    background-color: var(--palette-color-11, #FFEBBD);
 }
-body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::before {
     color: var(--palette-color14, #FFCCCF);
 }
-body.single-post .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after,
+body.single-curadorias .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after,
 header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .brasiliana-header-elements .brasiliana-header-button:focus .icon i::after {
     background-color: var(--palette-color14, #FFCCCF);
 }
@@ -172,7 +177,7 @@ header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .b
 }
 .brasiliana-social-icons [data-icons-type] > * {
     padding: 12px;
-    border: 1px solid var(--palette-color-10, #98D4FF);
+    border: 1px solid var(--palette-color-11, #FFEBBD);
     background-color: white;
     display: block;
     border-radius: 100%;
@@ -185,7 +190,7 @@ header.tainacan-collection-header:not(.tainacan-collection-header--term-page) .b
 }
 
 /* Single post header for curadorias */
-body.single-post .hero-section .page-description {
+body.single-curadorias .hero-section .page-description {
     max-width: 624px;
 }
 
@@ -195,6 +200,9 @@ footer h1>img {
 }
 
 /* Tweaks for better responsivenes */
+.site-title {
+    white-space: nowrap;
+}
 @media screen and (max-width: 767px) {
     [data-header*="type-1"] .ct-header [data-id="logo"] .site-title {
         --font-size: 34px;
