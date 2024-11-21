@@ -28,14 +28,14 @@ footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block:f
 footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block:active {
     border-top: none !important;
     border-left: none !important;
-    border-bottom: 3px solid var(--linkInitialColor) !important;
+    border-bottom: 3px solid var(--theme-link-initial-color) !important;
     border-right: none !important;
     height: 2.5em;
-    --tainacan-block-primary: var(--linkInitialColor);
+    --tainacan-block-primary: var(--theme-link-initial-color);
 }
 footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block input#tainacan-search-bar-block_input {
     background: transparent;
-    color: var(--linkInitialColor);
+    color: var(--theme-link-initial-color);
     border: none;
     padding: 6px 0em;
     font-size: 1em;
@@ -45,7 +45,7 @@ footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block i
 }
 footer .ct-container .wp-block-tainacan-search-bar  #tainacan-search-bar-block button {
     background: transparent;
-    color: var(--linkInitialColor);
+    color: var(--theme-link-initial-color);
     border: none;
 }
 

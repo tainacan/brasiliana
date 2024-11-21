@@ -15,7 +15,7 @@
     position: absolute;
     top: calc(-1 * var(--content-vertical-spacing) + 6px) !important;
     font-size: 14px;
-    --linkInitialColor: white;
+    --theme-link-initial-color: white;
     color: white;
     opacity: 0.75;
 }
@@ -36,7 +36,7 @@
 }
 .tainacan-collection-header.tainacan-collection-header--term-page .ct-breadcrumbs {
     color: #040203;
-    --linkInitialColor: #040203;
+    --theme-link-initial-color: #040203;
     opacity: 0.75;
 }
 
